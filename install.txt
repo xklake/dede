@@ -1,2 +1,0 @@
-go to:
-http://yoursite/install/index.php
