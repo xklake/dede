@@ -1,0 +1,171 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	width:96%;
+	margin:0px auto;
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#555;
+}
+
+ul,li{
+	list-style:none;
+}
+
+
+.head{
+	height:68px;
+	overflow:hidden;
+	clear:both;
+}
+.head h1{
+	display:block;
+	width:200px;
+	float:left;
+	background:url(images/top-logo.gif) center center no-repeat;
+}
+.head h1 a{
+	display:block;
+	width:200px;
+	height:68px;
+	font-size:0px;
+	line-height:200px;
+	overflow:hidden;
+}
+.head .rlink{
+	color:#DDD;
+	float:right;
+	padding-top:30px;
+}
+.head .rlink a{
+	margin:0px 8px;
+	color:#666;
+}
+.nav{
+	height:29px;
+	overflow:hidden;
+	clear:both;
+	background:url(images/tnav-bg.png) repeat-x;
+}
+.nav ul{
+	padding-left:10px;
+	list-style:none;
+}
+.nav ul li{
+	float:left;
+	line-height:29px;
+	height:29px;
+	overflow:hidden;
+}
+.nav ul li a{
+	color:#FFF;
+	float:left;
+	text-decoration:none;
+	padding:0px 18px;
+}
+.nav ul li a:hover{
+	color:#FF9;	
+}
+.nav ul li.thisclass{
+	background:url(images/nav-thisclass.gif) left top no-repeat;
+	margin-top:3px;
+	padding-left:3px;
+}
+.nav ul li.thisclass a,.nav ul li.thisclass a:hover{
+	background:#0F0;
+	padding:0px 8px 0px 8px;
+	line-height:29px;
+	overflow:hidden;
+	letter-spacing:2px;
+	color:#C00;
+	font-weight:bold;
+	background:url(images/nav-thisclass.gif) right top no-repeat;
+}
+.foot{
+	text-align:center;
+	padding:12px 0px;
+	line-height:180%;
+}
+.foot .copyright{
+	font-size:11px;
+	color:#690;
+}
+.foot .aboutdede{
+	color:#666;
+}
+
+
+.sc{
+	margin:8px auto 0px;
+	border:1px solid #FFE9A4;
+	clear:both;
+	overflow:hidden;
+}
+.sc .st{
+	height:25px;
+	background:#FFF0C1;
+	border-top:1px solid #FFFBED;
+	border-bottom:1px solid #FFE9A4;
+	font-weight:bold;
+	letter-spacing:2px;
+	line-height:25px;
+	text-indent:10px;
+	color:#CD6323;
+	overflow:hidden;
+}
+.sc .sd{
+	padding:8px 20px 12px;
+	line-height:200%;
+}
+.sc .sd h3{
+	font-size:14px;
+	color:#555;
+	margin-top:12px;
+	line-height:15px;
+}
+.sc .sd h4{
+	font-size:12px;
+	color:#7D7760;
+	margin-top:12px;
+	line-height:15px;
+	padding-bottom: 5px;
+}
+.sc .sd span{
+	padding-left: 2em;
+	display: block;
+}
+.sc .sd ul{
+	line-height:28px;
+	padding-left:14px;
+}
+.sc .sd ul li{
+	list-style-type:disc;
+	color:#666;	
+}
+.sc .sd ul li a{
+	color:#669;
+}
+.sc .sd ul li a:hover{
+	color:#F00;	
+}
+
+.tg_c span{
+	border: 1px solid #eeeeee;
+	background-color: #fefefd;
+	color: #666666;
+	margin-left: 2em;
+}
+.ml-1{
+	margin-left:10px;	
+}
+.ml-2{
+	margin-left:20px;	
+}
+.ml-3{
+	margin-left:30px;	
+}
+.ml-4{
+	margin-left:40px;	
+}
