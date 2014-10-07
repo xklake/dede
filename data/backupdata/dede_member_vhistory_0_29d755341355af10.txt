@@ -1,0 +1,2 @@
+INSERT INTO `dede_member_vhistory` VALUES('1','5','yuejie','4','like','2','127.0.0.1','1270776001');
+INSERT INTO `dede_member_vhistory` VALUES('2','3','wind','2','tianya','2','127.0.0.1','1270776036');
