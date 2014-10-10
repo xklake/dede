@@ -1,0 +1,10 @@
+INSERT INTO `dede_uploads` VALUES('14','79','网站建设简单流程','/uploads/allimg/140906/11342Q130-0.gif','1','675','453','0','113757','1409974468','1');
+INSERT INTO `dede_uploads` VALUES('5','73','提高移动电子商务销售的交互设计模式','/uploads/allimg/140904/1-140Z41P3520-L.jpg','1','0','0','0','55586','1409825032','1');
+INSERT INTO `dede_uploads` VALUES('6','74','The living room located on the southern road','/uploads/allimg/140904/1-140Z41PA20-L.jpg','1','0','0','0','147861','1409825212','1');
+INSERT INTO `dede_uploads` VALUES('7','75','In Between by Henrietta Harris','/uploads/allimg/140904/1-140Z41PJ70-L.jpg','1','0','0','0','119161','1409825267','1');
+INSERT INTO `dede_uploads` VALUES('8','76','建筑摄影作品','/uploads/allimg/140904/1-140Z41PR60-L.jpeg','1','0','0','0','71216','1409825306','1');
+INSERT INTO `dede_uploads` VALUES('9','77','当波普艺术遇上游艇','/uploads/allimg/140904/1-140Z41P9110-L.jpeg','1','0','0','0','180955','1409825351','1');
+INSERT INTO `dede_uploads` VALUES('10','78','魔客吧-建站资源共享学习平台','/uploads/allimg/140904/1-140Z41Q0410-L.jpg','1','0','0','0','75375','1409825441','1');
+INSERT INTO `dede_uploads` VALUES('11','78','日照春燕空调','/uploads/140906/1-140Z6111512538.jpg','1','550','700','0','327810','1409973312','1');
+INSERT INTO `dede_uploads` VALUES('12','0','140906/1-140Z611295Y91.jpg','/uploads/allimg/140906/1-140Z611295Y91.jpg','1','1000','245','0','52837','1409974198','1');
+INSERT INTO `dede_uploads` VALUES('13','0','140906/1-140Z611302L55.jpg','/uploads/allimg/140906/1-140Z611302L55.jpg','1','1000','245','0','52837','1409974227','1');

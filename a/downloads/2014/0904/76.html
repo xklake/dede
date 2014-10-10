@@ -1,0 +1,361 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>建筑摄影作品_我的网站</title>
+<meta name="keywords" content="建筑,摄影作品,这位,木匠,建筑师,日本,境内,设计,建造," />
+<meta name="description" content="这位木匠和建筑师在日本境内设计建造了120座住宅，每个项目都有一个总体目标" />
+<link href="/templets/default/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<script language="javascript" type="text/javascript" src="/include/dedeajax2.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+function CheckLogin()
+{
+	var taget_obj = document.getElementById('_ajax_feedback');
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("/member/ajax_feedback.php");
+	DedeXHTTP = null;
+}
+function postBadGood(ftype,fid)
+{
+	var taget_obj = document.getElementById(ftype+fid);
+	var saveid = GetCookie('badgoodid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==fid && hasid) continue;
+			else {
+				if(saveids[i]==fid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==10 && hasid) break;
+				if(j==9 && !hasid) break;
+			}
+		}
+		if(hasid) { alert('您刚才已表决过了喔！'); return false;}
+		else saveid += ','+fid;
+		SetCookie('badgoodid',saveid,1);
+	}
+	else
+	{
+		SetCookie('badgoodid',fid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("/plus/feedback.php?aid="+fid+"&action="+ftype+"&fid="+fid);
+	DedeXHTTP = null;
+}
+function postDigg(ftype,aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	var saveid = GetCookie('diggid');
+	if(saveid != null)
+	{
+		var saveids = saveid.split(',');
+		var hasid = false;
+		saveid = '';
+		j = 1;
+		for(i=saveids.length-1;i>=0;i--)
+		{
+			if(saveids[i]==aid && hasid) continue;
+			else {
+				if(saveids[i]==aid && !hasid) hasid = true;
+				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
+				j++;
+				if(j==20 && hasid) break;
+				if(j==19 && !hasid) break;
+			}
+		}
+		if(hasid) { alert("您已经顶过该帖，请不要重复顶帖 ！"); return; }
+		else saveid += ','+aid;
+		SetCookie('diggid',saveid,1);
+	}
+	else
+	{
+		SetCookie('diggid',aid,1);
+	}
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	var url = "/plus/digg_ajax.php?action="+ftype+"&id="+aid;
+	myajax.SendGet2(url);
+	DedeXHTTP = null;
+}
+function getDigg(aid)
+{
+	var taget_obj = document.getElementById('newdigg');
+	myajax = new DedeAjax(taget_obj,false,false,'','','');
+	myajax.SendGet2("/plus/digg_ajax.php?id="+aid);
+	DedeXHTTP = null;
+}
+-->
+</script>
+</head>
+<body class="downlist">
+<div class="header_top">  
+    <div class="w960 center">  
+     <span id="time" class="time">织梦CMS - 轻松建站从此开始！</span>
+     <div class="toplinks"><a href="/plus/heightsearch.php" target="_blank">高级搜索</a>|<a href="/data/sitemap.html" target="_blank">网站地图</a>|<a href="/tags.php">TAG标签</a><a href="/data/rssmap.html" class="rss">RSS订阅</a><span>[<a href=""onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://dede.com');">设为首页</a>] [<a href="javascript:window.external.AddFavorite('http://dede.com','我的网站')">加入收藏</a>]</span></div>
+    </div> 
+</div>
+<div class="header">
+	<div class="top w960 center">
+      <div class="title">
+        <h1><a href="http://dede.com"><img src="/templets/default/images/logo.gif" height="54" width="216" alt="我的网站"/></a> </h1>
+      </div>
+      <div class="banner"><script type="text/javascript" src="http://ad.dedecms.com/adsview/?action=single&key=ctenttpbanner1&charset=gbk"></script></div>
+      <div class="banner2"><script type="text/javascript" src="http://ad.dedecms.com/adsview/?action=single&key=ctenttpbanner2&charset=gbk"></script></div>
+       
+	</div><!-- //top -->
+	<!-- //菜单 -->
+	<div class="module blue mT10 wrapper w963">
+  	<div class="top">
+    	<!-- //如果不使用currentstyle，可以在channel标签加入 cacheid='channeltoplist' 属性提升性能 -->
+    <div id="navMenu">
+    	<ul>
+      	<li><a href='/'><span>主页</span></a></li>
+      	
+      	<li><a href='/a/a/webbase/' ><span>服务项目</span></a></li>
+      	
+      	<li><a href='/a/shops/' ><span>房产展览</span></a></li>
+      	
+      	<li><a href='/jianjie/2/'  rel='dropmenu1'><span>地产要闻</span></a></li>
+      	
+      	<li><a href='/a/contact/2/' ><span>联系我们</span></a></li>
+      	
+    	</ul>
+    </div>	
+    <div class="search">
+      <form  name="formsearch" action="/plus/search.php">
+        <div class="form">
+          <h4>搜索</h4>
+           <input type="hidden" name="kwtype" value="0" />
+           <input name="q" type="text" class="search-keyword" id="search-keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}"  onblur="if(this.value==''){this.value='在这里搜索...';}" />
+           <select name="searchtype" class="search-option" id="search-option">
+               <option value="title" selected='1'>检索标题</option>
+               <option value="titlekeyword">智能模糊</option>
+           </select>
+          <button type="submit" class="search-submit">搜索</button>
+        </div>
+        </form>
+        <div class="tags">
+          <h4>热门标签:</h4>
+          <ul>
+          
+            <li><a href='/tags.php?/dedecms5.1/'>dedecms5.1</a></li>
+          
+            <li><a href='/tags.php?/sp1/'>sp1</a></li>
+          
+            <li><a href='/tags.php?/%E5%85%8D%E8%B4%B9%E7%89%88/'>免费版</a></li>
+          
+          </ul>
+        </div>
+    </div><!-- //search -->
+		</div>
+	</div>
+</div><!-- //header -->
+
+<!-- /header -->
+
+<div class="w960 center clear mt1">
+	<div class="pleft">
+		<div class="place">
+			<strong>当前位置:</strong> <a href='http://dede.com/'>首页</a> > <a href='/a/downloads/'>软件下载</a> > 
+		</div><!-- /place -->
+		<div class="viewbox">
+			<div class="title">
+				<h2>建筑摄影作品</h2>
+			</div><!-- /title -->
+			<div class="infolist">
+				<small>软件类型：</small><span></span>
+				<small>授权方式：</small><span></span>
+				<small>界面语言：</small><span></span>
+				<small>软件大小：</small><span></span>
+				<small>文件类型：</small><span></span>
+				<small>运行环境：</small><span></span>
+				<small>软件等级：</small><span>☆☆☆☆☆</span>
+				<small>发布时间：</small><span>2014-09-04</span>
+				<small>官方网址：</small><span></span>
+        <small>演示网址：</small><span></span>
+        <small>下载次数：</small><span><script src="/plus/disdls.php?aid=76" language="javascript"></script></span>
+			</div><!-- /info -->
+			<div class="picview">
+				
+			</div><!-- /info -->
+			<div class="labeltitle">
+				<strong>软件介绍</strong>
+			</div>
+			<div class="content"><div id="contentMidPicAD" style="float:right; clear:both; top:0; vertical-align:top;"><script type="text/javascript" src="http://ad.dedecms.com/adsview/?action=single&key=contentmidpicad&charset=gbk"></script></div>
+				
+			</div>
+			<div class="labeltitle">
+				<strong>下载地址</strong>
+			</div>
+			<div class="content">
+				<ul class="downurllist">
+                	
+                </ul>
+			</div>
+			<div class="labeltitle">
+				<strong>下载说明</strong>
+			</div>
+			<div class="intro">
+				<p>?推荐使用第三方专业下载工具下载本站软件，使用 WinRAR v3.10 以上版本解压本站软件。<br />	
+?如果这个软件总是不能下载的请点击报告错误,谢谢合作!!<br />	
+?下载本站资源，如果服务器暂不能下载请过一段时间重试！<br />	
+?如果遇到什么问题，请到本站论坛去咨寻，我们将在那里提供更多 、更好的资源！<br />	
+?本站提供的一些商业软件是供学习研究之用，如用于商业用途，请购买正版。</p>
+			</div>
+			<div class="newdigg" id="newdigg">
+				<div class="diggbox digg_good" onmousemove="this.style.backgroundPosition='left bottom';" onmouseout="this.style.backgroundPosition='left top';" onclick="javascript:postDigg('good',76)">
+					<div class="digg_act">顶一下</div>
+					<div class="digg_num">(0)</div>
+					<div class="digg_percent">
+						<div class="digg_percent_bar"><span style="width:0%"></span></div>
+						<div class="digg_percent_num">0%</div>
+					</div>
+				</div>
+				<div class="diggbox digg_bad" onmousemove="this.style.backgroundPosition='right bottom';" onmouseout="this.style.backgroundPosition='right top';" onclick="javascript:postDigg('bad',76)">
+					<div class="digg_act">踩一下</div>
+					<div class="digg_num">(0)</div>
+					<div class="digg_percent">
+						<div class="digg_percent_bar"><span style="width:0%"></span></div>
+						<div class="digg_percent_num">0%</div>
+					</div>
+				</div>
+			</div>
+			 <script language="javascript" type="text/javascript">getDigg(76);</script>
+			<div class="boxoff">
+				<strong>------分隔线----------------------------</strong>
+			</div>
+			<div class="handle">
+				<div class="context">
+					<ul>
+						<li>上一篇：<a href='/a/downloads/2014/0904/75.html'>In Between by Henrietta Harris</a> </li>
+						<li>下一篇：<a href='/a/downloads/2014/0904/77.html'>当波普艺术遇上游艇</a> </li>
+					</ul>
+				</div><!-- /context -->
+				<div class="actbox">
+					<ul>
+						<li id="act-fav"><a href="/plus/stow.php?aid=76" target="_blank">收藏</a></li>
+						<li id="act-err"><a href="/plus/erraddsave.php?aid=76&title=建筑摄影作品" target="_blank">挑错</a></li>
+						<li id="act-pus"><a href="/plus/recommend.php?aid=76" target="_blank">推荐</a></li>
+						<li id="act-pnt"><a href="#" onClick="window.print();">打印</a></li>
+					</ul>
+				</div><!-- /actbox -->
+			</div><!-- /handle -->
+		</div><!-- /viewbox -->
+
+<!-- //AJAX评论区 -->
+<div class='_DEDECY' style=''><div id='SOHUCS' sid='76'></div></div><script>(function(){var doc = document,s = doc.createElement('script'),h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;s.type = 'text/javascript';s.charset = 'utf-8';s.src='http://assets.changyan.sohu.com/upload/changyan.js?conf=prod_f433275a8686789f87d19b8630d84ad1&appid=cyri1kb6t';h.insertBefore(s,h.firstChild);window.SCS_NO_IFRAME = true;})()</script>
+
+	
+	</div><!-- /pleft -->
+
+	<div class="pright">
+        <div>
+          <dl class="tbox">
+				<dt><strong>栏目列表</strong></dt>
+				<dd>
+					<ul class="d6">
+                      
+					</ul>
+				</dd>
+			</dl>
+        </div>
+		<div id="contentRtPicAD" style="margin:10px auto"><script type="text/javascript" src="http://ad.dedecms.com/adsview/?action=single&key=contentrtpicad&charset=gbk"></script></div>
+        	<div class="infos_userinfo">
+ 			
+   	 	</div>
+
+		<div class="downrange mt1">
+			<dl class="tbox">
+				<dt><strong>推荐软件</strong></dt>
+				<dd>
+					<ul class="f1">
+                    
+					</ul>
+				</dd>
+			</dl>
+		</div><!-- /downrange -->
+
+		<div class="hot mt1">
+			<dl class="tbox">
+				<dt><strong>热门软件</strong></dt>
+				<dd>
+					<ul class="c1 ico2">
+                    <li><a href="/a/downloads/2014/0904/78.html">日照春燕空调</a></li>
+<li><a href="/a/downloads/2014/0904/75.html">In Between by Henrietta Harris</a></li>
+<li><a href="/a/downloads/2014/0904/73.html">提高移动电子商务销售的</a></li>
+<li><a href="/a/downloads/2014/0904/77.html">当波普艺术遇上游艇</a></li>
+<li><a href="/a/downloads/2014/0904/76.html">建筑摄影作品</a></li>
+<li><a href="/a/downloads/2010/0407/80.html">DedeAMPZ-PHP环境整合套件</a></li>
+<li><a href="/a/downloads/2014/0904/74.html">The living room located on the </a></li>
+
+					</ul>
+				</dd>
+			</dl>
+		</div>
+        <div id="contentRtPicAD2" style="margin:10px auto"><script type="text/javascript" src="http://ad.dedecms.com/adsview/?action=single&key=contentrtpicad2&charset=gbk"></script></div>
+	</div><!-- /pright -->
+</div>
+<div id="innerfooterAD2" style="margin:10px auto; width:726px"><script type="text/javascript" src="http://ad.dedecms.com/adsview/?action=single&key=innerfooterad2&charset=gbk"></script></div>
+<DIV class=hrey>
+<DIV class=w1000>
+<H2 class=partners>合作伙伴</H2>
+<DIV class=rollBox><A onmouseup=ISL_StopUp() class="LeftBotton png" 
+onmouseout=ISL_StopUp() onmousedown=ISL_GoUp()></A>
+<DIV id=ISL_Cont class=Cont>
+<DIV class=ScrCont>
+<DIV id=List1><!-- 图片大小：width="130" height="50"  begin -->
+<P class=pl><IMG title=光大银行 
+src="/templets/default/images/52aee08ed44ba.gif"></P>
+<P class=pl><IMG title=深圳市前海学校 
+src="/templets/default/images/52aed93e4a5e1.gif"></P>
+<P class=pl><IMG title=明亮物流 
+src="/templets/default/images/52aeda8d201ac.gif"></P>
+<P class=pl><IMG title=中国电信 
+src="/templets/default/images/52aed9fbd702c.gif"></P>
+<P class=pl><IMG title=无锡盈达聚力科技 
+src="/templets/default/images/52aedb394d44f.gif"></P>
+<P class=pl><IMG title=北京大学汇丰商学院 
+src="/templets/default/images/52aedbc262ff8.gif"></P>
+<P class=pl><IMG title=广东国方医药 
+src="/templets/default/images/52aedc5dbc5e4.gif"></P>
+<P class=pl><IMG title=深圳万厦装饰 
+src="/templets/default/images/52aedd6233ab2.gif"></P>
+<P class=pl><IMG title=创富志创始人俱乐部 
+src="/templets/default/images/52aeddf6a89d9.gif"></P>
+<P class=pl><IMG title=广东金苹果月饼 
+src="/templets/default/images/52aedefb07727.gif"></P><!-- 图片列表 end --></DIV>
+<DIV id=List2></DIV></DIV></DIV><A onmouseup=ISL_StopDown() 
+class="RightBotton png" onmouseout=ISL_StopDown() 
+onmousedown=ISL_GoDown()></A></DIV><!--End rollBox--->
+<DIV class=clear></DIV>
+
+
+
+<DIV class=fd_link>友情链接：
+<a href='http://www.dedecms.com' target='_blank'>织梦CMS官方</a> <a href='http://docs.dedecms.com/' target='_blank'>DedeCMS维基手册</a> <a href='http://bbs.dedecms.com' target='_blank'>织梦技术论坛</a> 
+<a href="http://www.dedemao.com/" target="_blank">dedecms模板</a>
+</DIV>
+<DIV class=clear></DIV></DIV></DIV>
+
+
+<DIV class=clear></DIV>
+<DIV id=footer>
+<DIV class=w1000>
+<P>Copyright &copy; 2002-2011 DEDECMS. 版权所有 Power by <a href='http://www.dedemao.com' target='_blank'>֯��è</a></P>
+<P><SPAN>服务热线：0375-88888888 &nbsp; 传真：0375-88888888 &nbsp; QQ: 88888888</SPAN> 
+</P>
+<P><SPAN>地址：洛阳市洛龙区宝龙生活广场对面&nbsp;</SPAN><SPAN>&nbsp;</SPAN> 
+</P><!--<img src="/LinkPHP/Tpl/Home/NewLinkpai/Public/index/wangan.jpg" border="0" alt="网安"/>-->
+
+</DIV></DIV><!--footer end-->
+
+<!-- /footer -->
+<script src="/plus/count.php?aid=76&mid=1" language="javascript"></script>
+</body>
+</html>

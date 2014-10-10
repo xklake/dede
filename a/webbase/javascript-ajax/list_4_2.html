@@ -1,217 +1,202 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>网页基础  /  Javascript/Ajax_Dede网站</title>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><META content="IE=7.0000" 
+http-equiv="X-UA-Compatible">
+<title>地产要闻  /  Javascript/Ajax_我的网站</title>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META name=robots content="index, follow">
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link href="/templets/default/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
-</head>
-<body class="articlelist">
-<div class="header_top">  
-    <div class="w960 center">  
-     <span id="time" class="time">织梦CMS - 轻松建站从此开始！</span>
-     <div class="toplinks"><a href="/plus/heightsearch.php" target="_blank">高级搜索</a>|<a href="/data/sitemap.html" target="_blank">网站地图</a>|<a href="/tags.php">TAG标签</a><a href="/data/rssmap.html" class="rss">RSS订阅</a><span>[<a href=""onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.dede.com');">设为首页</a>] [<a href="javascript:window.external.AddFavorite('http://www.dede.com','Dede网站')">加入收藏</a>]</span></div>
-    </div> 
-</div>
-<div class="header">
-	<div class="top w960 center">
-      <div class="title">
-        <h1><a href="http://www.dede.com"><img src="/templets/default/images/logo.gif" height="54" width="216" alt="Dede网站"/></a> </h1>
-      </div>
-      <div class="banner"><script type="text/javascript" src="http://ad.dedecms.com/adsview/?action=single&key=innertopbanner1&charset=gbk"></script></div>
-      <div class="banner2"><script type="text/javascript" src="http://ad.dedecms.com/adsview/?action=single&key=innertopbanner2&charset=gbk"></script></div>
-       
-	</div><!-- //top -->
-	<!-- //菜单 -->
-	<div class="module blue mT10 wrapper w963">
-  	<div class="top">
-    	<!-- //如果不使用currentstyle，可以在channel标签加入 cacheid='channeltoplist' 属性提升性能 -->
-    <div id="navMenu">
-    	<ul>
-      	<li><a href='/'><span>主页</span></a></li>
-      	<li class='hover'><a href='/a/webbase/'  rel='dropmenu1'><span>网页基础</span></a></li>
-      	<li><a href='/a/pics/' ><span>站长图集</span></a></li>
-      	
-      	<li><a href='/a/downloads/' ><span>软件下载</span></a></li>
-      	
-      	<li><a href='/a/shops/' ><span>商品销售</span></a></li>
-      	
-      	<li><a href='/a/infos/' ><span>分类信息</span></a></li>
-      	
-      	<li><a href='http://www.dedecms.com' ><span>织梦CMS</span></a></li>
-      	
-      	<li><a href='http://docs.dedecms.com' ><span>帮助文档</span></a></li>
-      	
-    	</ul>
-    </div>	
-    <div class="search">
-      <form  name="formsearch" action="/plus/search.php">
-        <div class="form">
-          <h4>搜索</h4>
-           <input type="hidden" name="kwtype" value="0" />
-           <input name="q" type="text" class="search-keyword" id="search-keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}"  onblur="if(this.value==''){this.value='在这里搜索...';}" />
-           <select name="searchtype" class="search-option" id="search-option">
-               <option value="title" selected='1'>检索标题</option>
-               <option value="titlekeyword">智能模糊</option>
-           </select>
-          <button type="submit" class="search-submit">搜索</button>
-        </div>
-        </form>
-        <div class="tags">
-          <h4>热门标签:</h4>
-          <ul>
-          
-            <li><a href='/tags.php?/dedecms5.1/'>dedecms5.1</a></li>
-          
-            <li><a href='/tags.php?/sp1/'>sp1</a></li>
-          
-            <li><a href='/tags.php?/%E5%85%8D%E8%B4%B9%E7%89%88/'>免费版</a></li>
-          
-          </ul>
-        </div>
-    </div><!-- //search -->
-		</div>
-	</div>
-</div><!-- //header -->
+<META name=GENERATOR content="MSHTML 8.00.6001.23580"><LINK title="RSS 2.0" 
+rel=alternate type=application/rss+xml 
+href="/index.php?m=Format&amp;a=rss"><LINK rel=stylesheet type=text/css 
+href="/templets/default/images/layout.css">
+<SCRIPT type=text/javascript src="/templets/default/images/jquery.js"></SCRIPT>
+</HEAD>
+<BODY>
 
-<!-- /header -->
-<div class="w960 center clear mt1">
- <div class="pleft">
-  <div class="place"> <strong>当前位置:</strong> <a href='http://www.dede.com/'>主页</a> > <a href='/a/webbase/'>网页基础</a> > <a href='/a/webbase/javascript-ajax/'>Javascript/Ajax</a> >  </div>
-  <!-- /place -->
-  <div class="listbox">
-   <ul class="e2">
-    <li> <a href='/a/webbase/javascript-ajax/2010/0407/35.html' class='preview'><img src='/images/defaultpic.gif'/></a>
-     [<b><a href='/a/webbase/javascript-ajax/'>Javascript/Ajax</a></b>] <a href="/a/webbase/javascript-ajax/2010/0407/35.html" class="title"><b>用JavaScript的日期对象操控时间和日期值</b></a> <span class="info"> <small>日期：</small>2010-04-07 09:36:53 <small>点击：</small>0 <small>好评：</small>0 </span>
-     <p class="intro"> 软件开发中一个比较棘手的内容是使用时间和日期值；似乎每种语言或者每种平台都有自己的格式。在Web开发过程中，你可以使用服务器端的代码来操控日期，你也可以使用JavaScript的日期（Date）对象来实现同样的目的。在今天的专栏里，我们将仔细看看这个对象。... </p>
-    </li><li> <a href='/a/webbase/javascript-ajax/2010/0407/36.html' class='preview'><img src='/images/defaultpic.gif'/></a>
-     [<b><a href='/a/webbase/javascript-ajax/'>Javascript/Ajax</a></b>] <a href="/a/webbase/javascript-ajax/2010/0407/36.html" class="title">减轻JavaScript测试和调试负担</a> <span class="info"> <small>日期：</small>2010-04-07 09:36:53 <small>点击：</small>0 <small>好评：</small>0 </span>
-     <p class="intro"> 像JSP、ASP.NET、ColdFusion这样的Web开发平台提供了大量强大服务器端开发选项。但是，它们并没有否定用JavaScript进行客户端的Web开发。... </p>
-    </li><li> <a href='/a/webbase/javascript-ajax/2010/0407/37.html' class='preview'><img src='/images/defaultpic.gif'/></a>
-     [<b><a href='/a/webbase/javascript-ajax/'>Javascript/Ajax</a></b>] <a href="/a/webbase/javascript-ajax/2010/0407/37.html" class="title">使用AJAX技术的十大理由</a> <span class="info"> <small>日期：</small>2010-04-07 09:36:53 <small>点击：</small>0 <small>好评：</small>0 </span>
-     <p class="intro"> 保守来说，AJAX在现在是热得不能再热的技术。所以，有必要要看看为什么AJAX能发展成为现在的样子，为什么它能不断成长，并且在短的时间内迅速变得无处不在。所以，我用午夜谈话的风格，来给出需要AJAX技术的十大理由。... </p>
-    </li><li> <a href='/a/webbase/javascript-ajax/2010/0407/38.html' class='preview'><img src='/images/defaultpic.gif'/></a>
-     [<b><a href='/a/webbase/javascript-ajax/'>Javascript/Ajax</a></b>] <a href="/a/webbase/javascript-ajax/2010/0407/38.html" class="title">Ajax 技术入门简介</a> <span class="info"> <small>日期：</small>2010-04-07 09:36:53 <small>点击：</small>0 <small>好评：</small>0 </span>
-     <p class="intro"> Ajax 由 HTML、Javascript 技术、DHTML 和 DOM 组成，这一杰出的方法可以将笨拙的 Web 界面转化成交互性的 Ajax 应用程序。... </p>
-    </li><li> <a href='/a/webbase/javascript-ajax/2010/0407/39.html' class='preview'><img src='/images/defaultpic.gif'/></a>
-     [<b><a href='/a/webbase/javascript-ajax/'>Javascript/Ajax</a></b>] <a href="/a/webbase/javascript-ajax/2010/0407/39.html" class="title">Web2.0十大Ajax安全漏洞以及成因</a> <span class="info"> <small>日期：</small>2010-04-07 09:36:53 <small>点击：</small>3 <small>好评：</small>1 </span>
-     <p class="intro"> Ajax中没有固有的安全漏洞，但是对该技术向量的适配显著地改变了网络应用的开发途径以及方法论。以前，DCOM和CORBA组成核心中间件层的时候，将数据和对象序列化非常困难。... </p>
-    </li><li> <a href='/a/webbase/javascript-ajax/2010/0407/40.html' class='preview'><img src='/images/defaultpic.gif'/></a>
-     [<b><a href='/a/webbase/javascript-ajax/'>Javascript/Ajax</a></b>] <a href="/a/webbase/javascript-ajax/2010/0407/40.html" class="title">JavaScript开发时的五个小提示</a> <span class="info"> <small>日期：</small>2010-04-07 09:36:53 <small>点击：</small>0 <small>好评：</small>0 </span>
-     <p class="intro"> 如果要在form中绑定事件处理程序时，应该只在 元素上绑定submit事件，而不是给提交按钮绑定click事件。March：这个方式固然很好，但是，公司开发时使用了Web Flow，一个页面就一个大form，而里面可能有若干个提交按钮，所以不得不把部分事件处理程序绑定在了... </p>
-    </li><li> <a href='/a/webbase/javascript-ajax/2010/0407/41.html' class='preview'><img src='/images/defaultpic.gif'/></a>
-     [<b><a href='/a/webbase/javascript-ajax/'>Javascript/Ajax</a></b>] <a href="/a/webbase/javascript-ajax/2010/0407/41.html" class="title">JavaScript：世界上误解最深的语言</a> <span class="info"> <small>日期：</small>2010-04-07 09:36:53 <small>点击：</small>0 <small>好评：</small>0 </span>
-     <p class="intro"> JavaScript，或者叫 Mocha，或者叫 LiveScript，或者叫 JScript，又或者叫 ECMAScript，是世界上最流行的编程语言之一。事实上世界上的每一台个人电脑都安装并在频繁使用至少一个JavaScript解释器。 JavaScript的流行完全是由于他在WWW脚本语言领域中的地位决... </p>
-    </li><li> <a href='/a/webbase/javascript-ajax/2010/0407/42.html' class='preview'><img src='/images/defaultpic.gif'/></a>
-     [<b><a href='/a/webbase/javascript-ajax/'>Javascript/Ajax</a></b>] <a href="/a/webbase/javascript-ajax/2010/0407/42.html" class="title">JavaScript基础知识总结</a> <span class="info"> <small>日期：</small>2010-04-07 09:36:53 <small>点击：</small>0 <small>好评：</small>0 </span>
-     <p class="intro"> 已经读了《JavaScript DOM 编程艺术》的前几章基础部分，现在凭着记忆，将JavaScript的基础知识总结一下。... </p>
-    </li><li> <a href='/a/webbase/javascript-ajax/2010/0407/43.html' class='preview'><img src='/images/defaultpic.gif'/></a>
-     [<b><a href='/a/webbase/javascript-ajax/'>Javascript/Ajax</a></b>] <a href="/a/webbase/javascript-ajax/2010/0407/43.html" class="title"><b>JavaScript的9个陷阱及评点</b></a> <span class="info"> <small>日期：</small>2010-04-07 09:36:53 <small>点击：</small>0 <small>好评：</small>0 </span>
-     <p class="intro"> 来自Nine Javascript Gotchas, 以下是JavaScript容易犯错的九个陷阱。虽然不是什么很高深的技术问题，但注意一下，会使您的编程轻松些，即所谓make life easier. 笔者对某些陷阱会混杂一些评点。... </p>
-    </li><li> <a href='/a/webbase/javascript-ajax/2010/0407/53.html' class='preview'><img src='/images/defaultpic.gif'/></a>
-     [<b><a href='/a/webbase/javascript-ajax/'>Javascript/Ajax</a></b>] <a href="/a/webbase/javascript-ajax/2010/0407/53.html" class="title">用Mozilla免费调试器调试JavaScript</a> <span class="info"> <small>日期：</small>2010-04-07 09:36:53 <small>点击：</small>0 <small>好评：</small>0 </span>
-     <p class="intro"> 编程错误是生活中的严酷事实，但你不应在追踪这些错误的同时捶胸顿足。更加稳定的语言，如Java和.NET系统语言提供简化问题追踪过程的开发环境。... </p>
-    </li>
-   </ul>
-  </div>
-  <!-- /listbox -->
-  <div class="dede_pages">
-   <ul class="pagelist">
-    <li><a href='list_4_1.html'>首页</a></li>
+<DIV class=top_msg>
+<DIV class=w1000>
+<DIV style="FLOAT: left">伦敦房产俱乐部</DIV><A href="/"
+target=_blank></A>&nbsp;&nbsp;<IMG alt=深圳网站设计 align=absMiddle
+src="/templets/default/images/tagqq.png" height=18> <A title=qq 
+href="http://wpa.qq.com/msgrd?v=3&amp;uin=26373595&amp;site=qq&amp;menu=yes" 
+target=_blank>QQ：26373595</A>&nbsp;&nbsp;<IMG align=absMiddle 
+src="/templets/default/images/top_tel.png" height=18> 
+咨询热线：(86)0379-88888888（中国大陆）&nbsp;&nbsp;(44)020 4564 1234（英国伦敦） </SPAN>&nbsp;&nbsp;
+<A id="inside"
+href="javascript:void(0);"><IMG align=absMiddle 
+src="/templets/default/images/weixin.png" 
+height=18></A></DIV></DIV>
+<DIV class=logo_menu>
+<DIV class=w1000>
+<DIV class=logo><A href="/"><IMG alt=引擎科技网站建设 
+src="/templets/default/images/logo.png"></A></DIV>
+<DIV class=menu>
+<UL class=navigation>
+
+
+  <LI title=网站首页><A class=m1 title=网站首页 
+  href="/">网站首页</A> </LI>
+  
+  
+
+  <LI class=menu201><A title=服务项目 href="/a/a/webbase/">服务项目</A> 
+  </LI>
+
+  <LI class=menu201><A title=房产展览 href="/a/shops/">房产展览</A> 
+  </LI>
+<li class='hover'><a href='/jianjie/2/' ><span>地产要闻</span></a></li>
+  <LI class=menu201><A title=联系我们 href="/a/contact/2/">联系我们</A> 
+  </LI>
+  
+  
+  </UL></DIV>
+<DIV class=clear></DIV></DIV></DIV>
+<DIV class=bottom_shadow></DIV>
+<DIV class=banner>
+<DIV class=loading>
+<DIV 
+style="TEXT-ALIGN: center; WIDTH: 100%; BACKGROUND: url(/templets/default/images/20140504083916_87607.jpg) no-repeat center top; HEIGHT: 230px"></DIV></DIV></DIV>
+<DIV class=maincontent>
+<DIV class=content>
+<DIV class=case_menu>
+<DIV class=case_menu_top>
+<DIV class=subnav>
+
+<A class=green 
+href="/a/webbase/html/">HTML</A>
+
+<A class=green 
+href="/a/webbase/div-css/">DIV&CSS</A>
+
+<A class=green 
+href="/a/webbase/intro/">公司简介</A>
+<li><a href='/a/webbase/javascript-ajax/' class='thisclass'>Javascript/Ajax</a></li>
+<A class=green 
+href="/a/webbase/dreamweaver/">Dreamweaver</A>
+
+<A class=green 
+href="/jianjie/2/"> 我们的优势 	</A>
+
+<A class=green 
+href="/jianjie/2/">企业文化</A>
+
+ </DIV></DIV></DIV>
+<DIV class=news2>
+<UL class=news_r50>
+<LI><A title=台湾空难第一撞击点或为树林 顶端出现长条缺口|台湾客机迫降重摔 
+  href="/a/webbase/javascript-ajax/2014/0726/28.html"><SPAN 
+  class=title>台湾空难第一撞击点或为树林 顶端出现长条缺口|台湾客机迫降重摔</SPAN><SPAN class=rq>日期：202014-07-26</SPAN><SPAN 
+  class=xwnr>中新网7月26日电据台湾《中国时报》报道，台湾复兴空难现场有新发现，湖西乡红罗村洪姓村民看见距离飞机坠毁地点的西北方约500公尺处有一整排树林被削平，疑是第一撞击点，外界推测是飞机先撞上树林，机长曾企图拉高机体，可惜失败坠机。飞安会执行长王...</SPAN></A></LI><LI><A title=吴英申请资产处置小组长回避:他向我要过十几万|吴英案|资产处置 
+  href="/a/webbase/javascript-ajax/2014/0726/29.html"><SPAN 
+  class=title>吴英申请资产处置小组长回避:他向我要过十几万|吴英案|资产处置</SPAN><SPAN class=rq>日期：202014-07-26</SPAN><SPAN 
+  class=xwnr>7月23日，浙江省东阳市公安局对吴英案部分资产，通过网络进行首次拍卖。同日，吴英通过其委托代理人蔺文财向浙江省高级人民法院(以下称“浙江高院”)和东阳市委、市政府递交了“要求组长陈军回避申请”。有媒体报道，6月5日，由东阳市政府牵头组成了“...</SPAN></A></LI><LI><A title=西安对60平方米以下住房取消限购|西安|取消限购 
+  href="/a/webbase/javascript-ajax/2014/0726/30.html"><SPAN 
+  class=title>西安对60平方米以下住房取消限购|西安|取消限购</SPAN><SPAN class=rq>日期：202014-07-26</SPAN><SPAN 
+  class=xwnr>新华网西安7月26日电(记者石志勇)记者从西安市住房保障和房屋管理局获悉，为支持居民改善性住房需求，西安市将从7月28日起取消60平方米以下住房限购政策，这意味着西安市从2011年开始实施的商品房限购政策有所放松。据了解，西安市住房保障和房屋...</SPAN></A></LI><LI><A title=北京麦当劳早餐多款含肉主食下架|福喜|洋快餐 
+  href="/a/webbase/javascript-ajax/2014/0726/33.html"><SPAN 
+  class=title>北京麦当劳早餐多款含肉主食下架|福喜|洋快餐</SPAN><SPAN class=rq>日期：202014-07-26</SPAN><SPAN 
+  class=xwnr>新京报讯(记者陈白)受福喜事件影响，北京多家麦当劳门店下架多款热门产品。记者26日早晨在劲松附近的麦当劳餐厅发现，以往早餐多种品种可以选择的麦当劳主食仅剩一款香煎饼及一款薯饼的“悠享早餐”在售，其他如猪柳麦满分、猪柳蛋堡、板烧鸡腿麦满分等热...</SPAN></A></LI><LI><A title=乙晓光升任解放军副总参谋长|乙晓光|副总参谋长 
+  href="/a/webbase/javascript-ajax/2014/0726/36.html"><SPAN 
+  class=title>乙晓光升任解放军副总参谋长|乙晓光|副总参谋长</SPAN><SPAN class=rq>日期：202014-07-26</SPAN><SPAN 
+  class=xwnr>中新网7月26日电在25日召开的加强和改进军队院校学员思想政治工作座谈会上，乙晓光以解放军副总参谋长职务出席会议。早前，在6月26日媒体公开报道中，乙晓光仍为解放军总参谋长助理一职。据公开资料显示，乙晓光生于1958年6月，江苏沭阳人，19...</SPAN></A></LI><LI><A title=北京东城西城将禁止新建批发市场 
+  href="/a/webbase/javascript-ajax/2014/0726/3.html"><SPAN 
+  class=title>北京东城西城将禁止新建批发市场</SPAN><SPAN class=rq>日期：202014-07-26</SPAN><SPAN 
+  class=xwnr>...</SPAN></A></LI><LI><A title=人社部回应社保基金缩水:养命钱投资安全第一|社保基金缩水 
+  href="/a/webbase/javascript-ajax/2014/0726/6.html"><SPAN 
+  class=title>人社部回应社保基金缩水:养命钱投资安全第一|社保基金缩水</SPAN><SPAN class=rq>日期：202014-07-26</SPAN><SPAN 
+  class=xwnr>抓紧制定办法促养老基金保值增值事业单位没有出现提前退休潮本报北京7月25日电(记者白天亮)针对社会上担心社保基金只能存银行会缩水的忧虑，人社部新闻发言人李忠25日表示，人社部去年以来已会同有关方面开展了养老保险的顶层设计研究，其中包括养老保...</SPAN></A></LI><LI><A title=军队严令离退休干部清退违规住房获习近平批准|军队离退休干部清 
+  href="/a/webbase/javascript-ajax/2014/0726/7.html"><SPAN 
+  class=title>军队严令离退休干部清退违规住房获习近平批准|军队离退休干部清</SPAN><SPAN class=rq>日期：202014-07-26</SPAN><SPAN 
+  class=xwnr>●多处占房按商品房最高价计收房租直接从工资中扣除●违规购买的房改房由售房单位无条件原价收回●拒不退交的个人暂停各种服务保障中止福利发放本报讯(记者岳菲菲)据解放军报官方微博消息，经习主席批准，四总部、军委纪委近日联合发出《关于进一步做好离退休...</SPAN></A></LI><LI><A title=北京朝阳警方启用426名民兵参与反恐巡逻|朝阳民兵反恐巡逻 
+  href="/a/webbase/javascript-ajax/2014/0726/12.html"><SPAN 
+  class=title>北京朝阳警方启用426名民兵参与反恐巡逻|朝阳民兵反恐巡逻</SPAN><SPAN class=rq>日期：202014-07-26</SPAN><SPAN 
+  class=xwnr>本报讯（见习记者池海波）前天，朝阳警方在半年工作通报中提到，为应对新的反恐处突形式，朝阳在一南一北分别设置反恐处突备勤组，启动民兵参与社会面巡逻协调机制，组织426名民兵全面加强立交桥、地下涵洞等70处哨位定点看护。今年上半年，警方紧盯影响...</SPAN></A></LI><LI><A title=最高法首次公布欠薪入罪案例 浙江两人被判刑|欠薪入罪 
+  href="/a/webbase/javascript-ajax/2014/0726/13.html"><SPAN 
+  class=title>最高法首次公布欠薪入罪案例 浙江两人被判刑|欠薪入罪</SPAN><SPAN class=rq>日期：202014-07-26</SPAN><SPAN 
+  class=xwnr>本报讯（记者桂田田）近日，最高人民法院公布了8起典型案例，其中包括两起发生在浙江省的拒不支付劳动报酬案。据悉，这是最高法院首次公布恶意欠薪案例。最高法院有关负责人表示，将通过刑法的介入打击恶意欠薪行为。在最高人民法院发布的第一起案例中，被告...</SPAN></A></LI><LI><A title=上海金山石化含油污水罐爆炸火光熊熊(图)|金山石化含油污水罐爆 
+  href="/a/webbase/javascript-ajax/2014/0726/14.html"><SPAN 
+  class=title>上海金山石化含油污水罐爆炸火光熊熊(图)|金山石化含油污水罐爆</SPAN><SPAN class=rq>日期：202014-07-26</SPAN><SPAN 
+  class=xwnr>昨天上午10点20分左右，上海金山区北随塘河路3621号金山石化物料仓储液体料作业区，有一含油污水调节罐突然发生燃烧爆炸。接到报警后，消防部门派出消防车辆前去救援，截止到当日中午11点56分，明火被扑灭，没有人员伤亡。记者从当地消防部门负责...</SPAN></A></LI><LI><A title=江西德安遭遇特大洪灾祖孙三人被泥石流掩埋|江西德安特大洪灾 
+  href="/a/webbase/javascript-ajax/2014/0726/15.html"><SPAN 
+  class=title>江西德安遭遇特大洪灾祖孙三人被泥石流掩埋|江西德安特大洪灾</SPAN><SPAN class=rq>日期：202014-07-26</SPAN><SPAN 
+  class=xwnr>受第10号台风“麦德姆”外围影响，江西省德安县于24日出现持续特大暴雨。德安县官方消息称，该县聂桥镇永丰村村民杜桃花于24日凌晨6点10分左右被水冲走，两名年幼的女童被困在泥石流覆盖的房间里，生死不明。24日下午，德安县宣传部李部长告诉北青报...</SPAN></A></LI>    
+  </UL></DIV>
+<DIV id=pages class=page>
+<li><a href='list_4_1.html'>首页</a></li>
 <li><a href='list_4_1.html'>上一页</a></li>
 <li><a href='list_4_1.html'>1</a></li>
 <li class="thisclass">2</li>
-<li>末页</li>
+<li><a href='list_4_3.html'>3</a></li>
+<li><a href='list_4_4.html'>4</a></li>
+<li><a href='list_4_5.html'>5</a></li>
+<li><a href='list_4_3.html'>下一页</a></li>
+<li><a href='list_4_5.html'>末页</a></li>
 <li><select name='sldd' style='width:36px' onchange='location.href=this.options[this.selectedIndex].value;'>
 <option value='list_4_1.html'>1</option>
 <option value='list_4_2.html' selected>2</option>
+<option value='list_4_3.html'>3</option>
+<option value='list_4_4.html'>4</option>
+<option value='list_4_5.html'>5</option>
 </select></li>
-<li><span class="pageinfo">共 <strong>2</strong>页<strong>20</strong>条</span></li>
+<li><span class="pageinfo">共 <strong>5</strong>页<strong>53</strong>条</span></li>
 
-   </ul>
-  </div>
-  <!-- /pages -->
- </div>
- <!-- /pleft -->
- <div class="pright">
-  <div>
-   <dl class="tbox">
-    <dt><strong>栏目列表</strong></dt>
-    <dd>
-     <ul class="d6">
-      
-      <li><a href='/a/webbase/html/'>HTML</a></li>
-      
-      <li><a href='/a/webbase/div-css/'>DIV&CSS</a></li>
-      <li><a href='/a/webbase/javascript-ajax/' class='thisclass'>Javascript/Ajax</a></li>
-      <li><a href='/a/webbase/dreamweaver/'>Dreamweaver</a></li>
-      
-     </ul>
-    </dd>
-   </dl>
-  </div>
-  <div id="listRtPicAD" style="margin:10px auto"><script type="text/javascript" src="http://ad.dedecms.com/adsview/?action=single&key=listrtpicad&charset=gbk"></script></div>
-  <div class="commend">
-   <dl class="tbox light">
-    <dt class='light'><strong>推荐内容</strong></dt>
-    <dd class='light'>
-     <ul class="d4">
-      <li><a href="/a/webbase/javascript-ajax/2010/0407/52.html">完全了解AJAX</a>
-       <p>尽管AJAX是个相对新生的术语，但其背后的技术却并不新颖。我们...</p>
-      </li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/43.html">JavaScript的9个陷阱及评点</a>
-       <p>来自Nine Javascript Gotchas, 以下是JavaScript容易犯错的九个陷阱。虽...</p>
-      </li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/35.html">用JavaScript的日期对象操控时间和日</a>
-       <p>软件开发中一个比较棘手的内容是使用时间和日期值；似乎每种...</p>
-      </li>
+</DIV>
+<DIV class=clear></DIV></DIV>
+<DIV class=clear></DIV></DIV>
 
-     </ul>
-    </dd>
-   </dl>
-  </div>
-  <!-- /commend -->
-  <div class="hot mt1 light">
-   <dl class="tbox">
-    <dt class='light'><strong>热点内容</strong></dt>
-    <dd class='light'>
-     <ul class="c1 ico2">
-      <li><a href="/a/webbase/javascript-ajax/2010/0407/39.html">Web2.0十大Ajax安全漏洞以及</a></li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/34.html">JavaScript风格要素</a></li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/35.html">用JavaScript的日期对象操控</a></li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/36.html">减轻JavaScript测试和调试负</a></li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/37.html">使用AJAX技术的十大理由</a></li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/38.html">Ajax 技术入门简介</a></li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/40.html">JavaScript开发时的五个小提</a></li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/41.html">JavaScript：世界上误解最深</a></li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/42.html">JavaScript基础知识总结</a></li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/43.html">JavaScript的9个陷阱及评点</a></li>
+<DIV class=hrey>
+<DIV class=w1000>
+<H2 class=partners>合作伙伴</H2>
+<DIV class=rollBox><A onmouseup=ISL_StopUp() class="LeftBotton png" 
+onmouseout=ISL_StopUp() onmousedown=ISL_GoUp()></A>
+<DIV id=ISL_Cont class=Cont>
+<DIV class=ScrCont>
+<DIV id=List1><!-- 图片大小：width="130" height="50"  begin -->
+<P class=pl><IMG title=光大银行 
+src="/templets/default/images/52aee08ed44ba.gif"></P>
+<P class=pl><IMG title=深圳市前海学校 
+src="/templets/default/images/52aed93e4a5e1.gif"></P>
+<P class=pl><IMG title=明亮物流 
+src="/templets/default/images/52aeda8d201ac.gif"></P>
+<P class=pl><IMG title=中国电信 
+src="/templets/default/images/52aed9fbd702c.gif"></P>
+<P class=pl><IMG title=无锡盈达聚力科技 
+src="/templets/default/images/52aedb394d44f.gif"></P>
+<P class=pl><IMG title=北京大学汇丰商学院 
+src="/templets/default/images/52aedbc262ff8.gif"></P>
+<P class=pl><IMG title=广东国方医药 
+src="/templets/default/images/52aedc5dbc5e4.gif"></P>
+<P class=pl><IMG title=深圳万厦装饰 
+src="/templets/default/images/52aedd6233ab2.gif"></P>
+<P class=pl><IMG title=创富志创始人俱乐部 
+src="/templets/default/images/52aeddf6a89d9.gif"></P>
+<P class=pl><IMG title=广东金苹果月饼 
+src="/templets/default/images/52aedefb07727.gif"></P><!-- 图片列表 end --></DIV>
+<DIV id=List2></DIV></DIV></DIV><A onmouseup=ISL_StopDown() 
+class="RightBotton png" onmouseout=ISL_StopDown() 
+onmousedown=ISL_GoDown()></A></DIV><!--End rollBox--->
+<DIV class=clear></DIV>
 
-     </ul>
-    </dd>
-   </dl>
-  </div>
-  <div id="listRtPicAD2" style="margin:10px auto"><script type="text/javascript" src="http://ad.dedecms.com/adsview/?action=single&key=listrtpicad2&charset=gbk"></script></div>
- </div>
- <!-- /pright -->
-</div>
-<div id="innerfooterAD" style="margin:10px auto; width:726px"><script type="text/javascript" src="http://ad.dedecms.com/adsview/?action=single&key=innerfooterad&charset=gbk"></script></div>
 
-<!-- //底部模板 -->
-<div class="footer w960 center mt1 clear">
-	<!-- 
-		为了支持织梦团队的发展,请您保留织梦内容管理系统的链接信息.
-		我们对支持织梦团队发展的朋友表示真心的感谢!织梦因您更精彩!
-	-->
-    <div class="footer_left"></div>
-    <div class="footer_body">
-	<p class="powered">    
-		Powered by <a href="http://www.dedecms.com" title="织梦内容管理系统(DedeCms)--国内最专业的PHP网站管理系统，轻松建站的首选利器。" target="_blank"><strong>DedeCMS_V57_UTF8_SP1</strong></a> &copy; 2004-2011 <a href="http://www.desdev.cn/" target="_blank">DesDev</a> Inc.<br /><div class="copyright">Copyright &copy; 2002-2011 DEDECMS. 织梦科技 版权所有 <a href=http://www.dedecms.com target='_blank'>Power by DedeCms</a>&nbsp;&nbsp;</div></p>        
-<!-- /powered -->
-   </div>
-   <div class="footer_right"></div>
-</div>
-<!-- /footer -->
-</body>
-</html>
+
+<DIV class=fd_link>友情链接：
+<a href='http://www.dedecms.com' target='_blank'>织梦CMS官方</a> <a href='http://docs.dedecms.com/' target='_blank'>DedeCMS维基手册</a> <a href='http://bbs.dedecms.com' target='_blank'>织梦技术论坛</a> 
+<a href="http://www.dedemao.com/" target="_blank">dedecms模板</a>
+</DIV>
+<DIV class=clear></DIV></DIV></DIV>
+
+
+<DIV class=clear></DIV>
+<DIV id=footer>
+<DIV class=w1000>
+<P>Copyright &copy; 2002-2011 DEDECMS. 版权所有 Power by <a href='http://www.dedemao.com' target='_blank'>֯��è</a></P>
+<P><SPAN>服务热线：0375-88888888 &nbsp; 传真：0375-88888888 &nbsp; QQ: 88888888</SPAN> 
+</P>
+<P><SPAN>地址：洛阳市洛龙区宝龙生活广场对面&nbsp;</SPAN><SPAN>&nbsp;</SPAN> 
+</P><!--<img src="/LinkPHP/Tpl/Home/NewLinkpai/Public/index/wangan.jpg" border="0" alt="网安"/>-->
+
+</DIV></DIV><!--footer end-->
+
+
+</BODY></HTML>

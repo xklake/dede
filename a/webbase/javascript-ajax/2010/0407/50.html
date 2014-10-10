@@ -1,328 +1,170 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>如何用JavaScript实现旋转木马_Dede网站</title>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><META content="IE=7.0000" 
+http-equiv="X-UA-Compatible">
+<title>如何用JavaScript实现旋转木马_我的网站</title>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META name=robots content="index, follow">
 <meta name="keywords" content="如何用JavaScript实现旋转木马" />
 <meta name="description" content="Flash动画可以让Web网站看起来很漂亮，但是由于各种原因不是每个人都会在自己的客户端浏览器上安装Flash播放器。如果你或者你的用户不幸安装了64位的Linux发行版，或者你痛恨在自己的Web页面上放动画，那么你就不得不面对没有Flash动画的情况了。" />
-<link href="/templets/default/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
-<script language="javascript" type="text/javascript" src="/include/dedeajax2.js"></script>
-<script language="javascript" type="text/javascript">
-<!--
-function CheckLogin(){
-	  var taget_obj = document.getElementById('_ajax_feedback');
-	  myajax = new DedeAjax(taget_obj,false,false,'','','');
-	  myajax.SendGet2("/member/ajax_feedback.php");
-	  DedeXHTTP = null;
-}
-function postBadGood(ftype,fid)
-{
-	var taget_obj = document.getElementById(ftype+fid);
-	var saveid = GetCookie('badgoodid');
-	if(saveid != null)
-	{
-		var saveids = saveid.split(',');
-		var hasid = false;
-		saveid = '';
-		j = 1;
-		for(i=saveids.length-1;i>=0;i--)
-		{
-			if(saveids[i]==fid && hasid) continue;
-			else {
-				if(saveids[i]==fid && !hasid) hasid = true;
-				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
-				j++;
-				if(j==10 && hasid) break;
-				if(j==9 && !hasid) break;
-			}
-		}
-		if(hasid) { alert('您刚才已表决过了喔！'); return false;}
-		else saveid += ','+fid;
-		SetCookie('badgoodid',saveid,1);
-	}
-	else
-	{
-		SetCookie('badgoodid',fid,1);
-	}
-	myajax = new DedeAjax(taget_obj,false,false,'','','');
-	myajax.SendGet2("/plus/feedback.php?aid="+fid+"&action="+ftype+"&fid="+fid);
-}
-function postDigg(ftype,aid)
-{
-	var taget_obj = document.getElementById('newdigg');
-	var saveid = GetCookie('diggid');
-	if(saveid != null)
-	{
-		var saveids = saveid.split(',');
-		var hasid = false;
-		saveid = '';
-		j = 1;
-		for(i=saveids.length-1;i>=0;i--)
-		{
-			if(saveids[i]==aid && hasid) continue;
-			else {
-				if(saveids[i]==aid && !hasid) hasid = true;
-				saveid += (saveid=='' ? saveids[i] : ','+saveids[i]);
-				j++;
-				if(j==20 && hasid) break;
-				if(j==19 && !hasid) break;
-			}
-		}
-		if(hasid) { alert("您已经顶过该帖，请不要重复顶帖 ！"); return; }
-		else saveid += ','+aid;
-		SetCookie('diggid',saveid,1);
-	}
-	else
-	{
-		SetCookie('diggid',aid,1);
-	}
-	myajax = new DedeAjax(taget_obj,false,false,'','','');
-	var url = "/plus/digg_ajax.php?action="+ftype+"&id="+aid;
-	myajax.SendGet2(url);
-}
-function getDigg(aid)
-{
-	var taget_obj = document.getElementById('newdigg');
-	myajax = new DedeAjax(taget_obj,false,false,'','','');
-	myajax.SendGet2("/plus/digg_ajax.php?id="+aid);
-	DedeXHTTP = null;
-}
--->
-</script>
-</head>
-<body class="articleview">
-<div class="header_top">  
-    <div class="w960 center">  
-     <span id="time" class="time">织梦CMS - 轻松建站从此开始！</span>
-     <div class="toplinks"><a href="/plus/heightsearch.php" target="_blank">高级搜索</a>|<a href="/data/sitemap.html" target="_blank">网站地图</a>|<a href="/tags.php">TAG标签</a><a href="/data/rssmap.html" class="rss">RSS订阅</a><span>[<a href=""onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.dede.com');">设为首页</a>] [<a href="javascript:window.external.AddFavorite('http://www.dede.com','Dede网站')">加入收藏</a>]</span></div>
-    </div> 
-</div>
-<div class="header">
-	<div class="top w960 center">
-      <div class="title">
-        <h1><a href="http://www.dede.com"><img src="/templets/default/images/logo.gif" height="54" width="216" alt="Dede网站"/></a> </h1>
-      </div>
-      <div class="banner"><script type="text/javascript" src="http://ad.dedecms.com/adsview/?action=single&key=ctenttpbanner1&charset=gbk"></script></div>
-      <div class="banner2"><script type="text/javascript" src="http://ad.dedecms.com/adsview/?action=single&key=ctenttpbanner2&charset=gbk"></script></div>
-       
-	</div><!-- //top -->
-	<!-- //菜单 -->
-	<div class="module blue mT10 wrapper w963">
-  	<div class="top">
-    	<!-- //如果不使用currentstyle，可以在channel标签加入 cacheid='channeltoplist' 属性提升性能 -->
-    <div id="navMenu">
-    	<ul>
-      	<li><a href='/'><span>主页</span></a></li>
-      	<li class='hover'><a href='/a/webbase/'  rel='dropmenu1'><span>网页基础</span></a></li>
-      	<li><a href='/a/pics/' ><span>站长图集</span></a></li>
-      	
-      	<li><a href='/a/downloads/' ><span>软件下载</span></a></li>
-      	
-      	<li><a href='/a/shops/' ><span>商品销售</span></a></li>
-      	
-      	<li><a href='/a/infos/' ><span>分类信息</span></a></li>
-      	
-      	<li><a href='http://www.dedecms.com' ><span>织梦CMS</span></a></li>
-      	
-      	<li><a href='http://docs.dedecms.com' ><span>帮助文档</span></a></li>
-      	
-    	</ul>
-    </div>	
-    <div class="search">
-      <form  name="formsearch" action="/plus/search.php">
-        <div class="form">
-          <h4>搜索</h4>
-           <input type="hidden" name="kwtype" value="0" />
-           <input name="q" type="text" class="search-keyword" id="search-keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}"  onblur="if(this.value==''){this.value='在这里搜索...';}" />
-           <select name="searchtype" class="search-option" id="search-option">
-               <option value="title" selected='1'>检索标题</option>
-               <option value="titlekeyword">智能模糊</option>
-           </select>
-          <button type="submit" class="search-submit">搜索</button>
-        </div>
-        </form>
-        <div class="tags">
-          <h4>热门标签:</h4>
-          <ul>
-          
-            <li><a href='/tags.php?/dedecms5.1/'>dedecms5.1</a></li>
-          
-            <li><a href='/tags.php?/sp1/'>sp1</a></li>
-          
-            <li><a href='/tags.php?/%E5%85%8D%E8%B4%B9%E7%89%88/'>免费版</a></li>
-          
-          </ul>
-        </div>
-    </div><!-- //search -->
-		</div>
-	</div>
-</div><!-- //header -->
+<META name=GENERATOR content="MSHTML 8.00.6001.23580"><LINK title="RSS 2.0" 
+rel=alternate type=application/rss+xml 
+href="/index.php?m=Format&amp;a=rss"><LINK rel=stylesheet type=text/css 
+href="/templets/default/images/layout.css">
+<SCRIPT type=text/javascript 
+src="/templets/default/images/jquery.js"></SCRIPT>
+</HEAD>
+<BODY>
 
-<!-- /header -->
-<div class="w960 center clear mt1">
-<div class="pleft">
- <div class="place"> <strong>当前位置:</strong> <a href='http://www.dede.com/'>主页</a> > <a href='/a/webbase/'>网页基础</a> > <a href='/a/webbase/javascript-ajax/'>Javascript/Ajax</a> >  </div>
- <!-- /place -->
- <div class="viewbox">
-  <div class="title">
-   <h2>如何用JavaScript实现旋转木马</h2>
-  </div>
-  <!-- /title -->
-  <div class="info"> <small>时间:</small>2010-04-07 09:36<small>来源:</small> <small>作者:</small> <small>点击:</small>
-   <script src="/plus/count.php?view=yes&aid=50&mid=1" type='text/javascript' language="javascript"></script>
-   次</div>
-  <!-- /info -->
+<DIV class=top_msg>
+<DIV class=w1000>
+<DIV style="FLOAT: left">伦敦房产俱乐部</DIV><A href="/"
+target=_blank></A>&nbsp;&nbsp;<IMG alt=深圳网站设计 align=absMiddle
+src="/templets/default/images/tagqq.png" height=18> <A title=qq 
+href="http://wpa.qq.com/msgrd?v=3&amp;uin=26373595&amp;site=qq&amp;menu=yes" 
+target=_blank>QQ：26373595</A>&nbsp;&nbsp;<IMG align=absMiddle 
+src="/templets/default/images/top_tel.png" height=18> 
+咨询热线：(86)0379-88888888（中国大陆）&nbsp;&nbsp;(44)020 4564 1234（英国伦敦） </SPAN>&nbsp;&nbsp;
+<A id="inside"
+href="javascript:void(0);"><IMG align=absMiddle 
+src="/templets/default/images/weixin.png" 
+height=18></A></DIV></DIV>
+<DIV class=logo_menu>
+<DIV class=w1000>
+<DIV class=logo><A href="/"><IMG alt=引擎科技网站建设 
+src="/templets/default/images/logo.png"></A></DIV>
+<DIV class=menu>
+<UL class=navigation>
+
+
+  <LI title=网站首页><A class=m1 title=网站首页 
+  href="/">网站首页</A> </LI>
   
-  <div class="intro">Flash动画可以让Web网站看起来很漂亮，但是由于各种原因不是每个人都会在自己的客户端浏览器上安装Flash播放器。如果你或者你的用户不幸安装了64位的Linux发行版，或者你痛恨在自己的Web页面上放动画，那么你就不得不面对没有Flash动画的情况了。</div>
   
-  <div class="content">
-   <table width='100%'>
-    <tr>
-     <td><div id="contentMidPicAD" style="float:right; clear:both; top:0; vertical-align:top;"><script type="text/javascript" src="http://ad.dedecms.com/adsview/?action=single&key=contentmidpicad&charset=gbk"></script></div>
-      <p>Flash动画可以让Web网站看起来很漂亮，但是由于各种原因不是每个人都会在自己的客户端浏览器上安装Flash播放器。如果你或者你的用户不幸安装了64位的Linux发行版，或者你痛恨在自己的Web页面上放动画，那么你就不得不面对没有Flash动画的情况了。</p><p>在本文里，我将告诉你如何用JavaScript实现一个可用性更高的旋转木马（carousel）而弃用Flash。</p><p><strong>JavaScript——两害相交取其轻</strong></p><p>在本文里，我不准备去争论为什么要开发一个旋转木马，而是要接受我们不得不去开发的事实。</p><p>那么问题就来了：为什么要使用JavaSript而不是Flash？</p><ul><li>它要比Flash的实现更加轻巧——通过优化代码，我们只需要几千字节就能够获得一个可以使用的旋转木马，加载图片所需要的时间要比HTML和JavaScript的长。 </li><li>可维护性是另外一个原因。很多开发人员都知道JavaScript在可维护性上要胜Flash一筹。也许你没有（足够的）设计资源来创建一个功能完整的Flash实现，所以如果将它突然留给开发人员，这就意味着JavaScript是一个可行的替代方案。 </li><li>降级。在禁用JavaScript的情况下将有用的内容发送给用户要比在禁用Flash的情况下容易得多。 </li><li>可访问性。用屏幕阅读器浏览旋转木马要比浏览Flash对象更容易。 </li><li>Google。如果你的内容是在页面中的，Google就能够搜索到它；如果它在Flash中，而且页面中没有隐藏旋转木马的话，那么Googlebot就无法找到链接。</li></ul><p><strong>HTML基础</strong></p><p>知道了这些原因，就让我们从将要在本文中用到的四个内容开始创建旋转木马吧。</p><p align="left"><html></p><p align="left"><body></p><p align="left"><div id="storyContainer"></p><p align="left"><div id="story1"></p><p align="left"><a href="http://www.builderau.com.au/program/iis/soa/Protect_IIS_log_files_by_moving_them_to_a_secure_location/0,339028427,339271617,00.htm" class="ched">Secure IIS</a></p><p align="left">Log files are essential to reconstruct events before an IIS Web server failure. Learn how to protect your log files with this tip.</p><p align="left"><span class="fstory"><a href="http://www.cnet.com.au/software/security/0,39029558,40058242,00.htm">Full story</a></span></p><p align="left"></div></p><p align="left"><div id="story2"></p><p align="left"><a href="http://www.builderau.com.au/program/html/soa/Microformats_and_Mapping/0,339028420,339271486,00.htm" class="ched">User Group Mash</a></p><p align="left">Find an Aussie user group near you with our new Google maps interface.</p><p align="left"><span class="fstory"><a href="http://www.builderau.com.au/program/html/soa/Microformats_and_Mapping/0,339028420,339271486,00.htm">Full story</a></span></p><p align="left"></div></p><p align="left"><div id="story3"></p><p align="left"><a href="http://www.builderau.com.au/program/dotnet/soa/Quick_Start_guide_to_Microsoft_NET_development/0,339028399,339271495,00.htm" class="ched">.NET 101</a></p><p align="left">Learn how the .NET Framework works and the tools you'll need to get up and running in this quick start guide.</p><p align="left"><span class="fstory"><a href="http://www.builderau.com.au/program/dotnet/soa/Quick_Start_guide_to_Microsoft_NET_development/0,339028399,339271495,00.htm">Full story</a></span></p><p align="left"></div></p><p align="left"><div id="story4" ></p><p align="left"><a href="http://www.builderau.com.au/program/css/soa/Understanding_the_CSS_box_model/0,39028392,39269220,00.htm" class="ched">Understand CSS</a></p><p align="left">Before diving into CSS learn some of the core drivers and concepts.</p><p align="left"><span class="fstory"><a href="http://www.builderau.com.au/program/css/soa/Understanding_the_CSS_box_model/0,39028392,39269220,00.htm">Full story</a></span></p><p align="left"></div></p><p align="left"></div></p><p align="left"></body></p><p align="left"></html></p><p>这个时候蒙娜丽莎对我们还没有用。现在让我们向这些div加入一些样式，让它看起来更像我们所知道的旋转木马：</p><p align="left"><html></p><p align="left"><head></p><p align="left"><style></p><p align="left">.storydiv {</p><p align="left">height:182px;</p><p align="left">width:355px;</p><p align="left">padding-left:175px;</p><p align="left">top:0px;</p><p align="left">left:0px;</p><p align="left">}</p><p align="left">#story1 {</p><p align="left">background:url(http://www.builderau.com.au/i/s/cov/securitychain170110.gif) no-repeat;</p><p align="left">}</p><p align="left">#story2 {</p><p align="left">background:url(http://www.builderau.com.au/i/s/cov/browser170110.jpg) no-repeat;</p><p align="left">}</p><p align="left">#story3 {</p><p align="left">background:url(http://www.builderau.com.au/i/s/cov/dotnet170110.gif) no-repeat;</p><p align="left">}</p><p align="left">#story4 {</p><p align="left">background:url(http://www.builderau.com.au/i/s/cov/tools170110.jpg) no-repeat;</p><p align="left">}</p><p align="left">.storyDesc{</p><p align="left">padding-top: 10px; </p><p align="left">padding-right: 8px;</p><p align="left">display:block;</p><p align="left">}</p><p align="left">.fStory {</p><p align="left">padding-top: 10px;</p><p align="left">display:block;</p><p align="left">font-weight:bold;</p><p align="left">}</p><p align="left"></style></p><p align="left">&nbsp;</p><p align="left"></head></p><p align="left"><body></p><p align="left"><div id="storyContainer"></p><p align="left"><div id="story1" class="storydiv"></p><p align="left"><a href="http://www.builderau.com.au/program/iis/soa/Protect_IIS_log_files_by_moving_them_to_a_secure_location/0,339028427,339271617,00.htm" class="ched">Secure IIS</a></p><p align="left"><span class="storydesc"></p><p align="left">Log files are essential to reconstruct events before an IIS Web server failure. Learn how to protect your log files with this tip.</span></p><p align="left"><span class="fstory"><a href="http://www.cnet.com.au/software/security/0,39029558,40058242,00.htm">Full story</a></span></p><p align="left"></div></p><p align="left"><div id="story2" class="storydiv"></p><p align="left"><a href="http://www.builderau.com.au/program/html/soa/Microformats_and_Mapping/0,339028420,339271486,00.htm" class="ched">User Group Mash</a></p><p align="left"><span class="storydesc"></p><p align="left">Find an Aussie user group near you with our new Google maps interface.</span></p><p align="left"><span class="fstory"><a href="http://www.builderau.com.au/program/html/soa/Microformats_and_Mapping/0,339028420,339271486,00.htm">Full story</a></span></p><p align="left"></div></p><p align="left"><div id="story3" class="storydiv"></p><p align="left"><a href="http://www.builderau.com.au/program/dotnet/soa/Quick_Start_guide_to_Microsoft_NET_development/0,339028399,339271495,00.htm" class="ched">.NET 101</a></p><p align="left"><span class="storydesc"></p><p align="left">Learn how the .NET Framework works and the tools you'll need to get up and running in this quick start guide.</span></p><p align="left"><span class="fstory"><a href="http://www.builderau.com.au/program/dotnet/soa/Quick_Start_guide_to_Microsoft_NET_development/0,339028399,339271495,00.htm">Full story</a></span></p><p align="left"></div></p><p align="left"><div id="story4" class="storydiv"></p><p align="left"><a href="http://www.builderau.com.au/program/css/soa/Understanding_the_CSS_box_model/0,39028392,39269220,00.htm" class="ched">Understand CSS</a></p><p align="left"><span class="storydesc"></p><p align="left">Before diving into CSS learn<br/>some of the core drivers and concepts.</span></p><p align="left">&nbsp;</p><p align="left"><span class="fstory"><a href="http://www.builderau.com.au/program/css/soa/Understanding_the_CSS_box_model/0,39028392,39269220,00.htm">Full story</a></span></p><p align="left"></div></p><p align="left">&nbsp;</p><p align="left"></div></p><p align="left"></body></p><p align="left"></html></p><p align="left">
-            <p align="center"> </p>
-      
-      (责任编辑：admin)</td>
-    </tr>
-   </table>
-  </div>
-  <!-- /content -->
-  <div class="dede_pages">
-   <ul class="pagelist">
-    
-   </ul>
-  </div>
-  <!-- /pages -->
-  <!-- //顶踩 -->
-  <div class="newdigg" id="newdigg">
-   <div class="diggbox digg_good" onmousemove="this.style.backgroundPosition='left bottom';" onmouseout="this.style.backgroundPosition='left top';" onclick="javascript:postDigg('good',50)">
-    <div class="digg_act">顶一下</div>
-    <div class="digg_num">(0)</div>
-    <div class="digg_percent">
-     <div class="digg_percent_bar"><span style="width:0%"></span></div>
-     <div class="digg_percent_num">0%</div>
-    </div>
-   </div>
-   <div class="diggbox digg_bad" onmousemove="this.style.backgroundPosition='right bottom';" onmouseout="this.style.backgroundPosition='right top';" onclick="javascript:postDigg('bad',50)">
-    <div class="digg_act">踩一下</div>
-    <div class="digg_num">(0)</div>
-    <div class="digg_percent">
-     <div class="digg_percent_bar"><span style="width:0%"></span></div>
-     <div class="digg_percent_num">0%</div>
-    </div>
-   </div>
-  </div>
-  <script language="javascript" type="text/javascript">getDigg(50);</script>
-  <!-- //顶踩部份的源码结束 -->
-  <!-- //分享代码开始 -->
+
+  <LI class=menu201><A title=服务项目 href="/a/a/webbase/">服务项目</A> 
+  </LI>
+
+  <LI class=menu201><A title=房产展览 href="/a/shops/">房产展览</A> 
+  </LI>
+<li class='hover'><a href='/jianjie/2/' ><span>地产要闻</span></a></li>
+  <LI class=menu201><A title=联系我们 href="/a/contact/2/">联系我们</A> 
+  </LI>
   
-  <!-- //分享代码结束 -->
-  <div class="boxoff"> <strong>------分隔线----------------------------</strong> </div>
-  <div class="handle">
-   <div class="context">
-    <ul>
-     <li>上一篇：<a href='/a/webbase/javascript-ajax/2010/0407/49.html'>使用mashups可能会给用户带来不好体验</a> </li>
-     <li>下一篇：<a href='/a/webbase/javascript-ajax/2010/0407/51.html'>设计与应用JavaScript对象符号JSON</a> </li>
-    </ul>
-   </div>
-   <!-- /context -->
-   <div class="actbox">
-    <ul>
-     <li id="act-fav"><a href="/plus/stow.php?aid=50" target="_blank">收藏</a></li>
-     <li id="act-err"><a href="/plus/erraddsave.php?aid=50&title=如何用JavaScript实现旋转木马" target="_blank">挑错</a></li>
-     <li id="act-pus"><a href="/plus/recommend.php?aid=50" target="_blank">推荐</a></li>
-     <li id="act-pnt"><a href="#" onClick="window.print();">打印</a></li>
-    </ul>
-   </div>
-   <!-- /actbox -->
-  </div>
-  <!-- /handle -->
- </div>
- <!-- /viewbox -->
- <!-- //AJAX评论区 -->
- <div class='_DEDECY' style=''><div id='SOHUCS' sid='50'></div></div><script>(function(){var doc = document,s = doc.createElement('script'),h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;s.type = 'text/javascript';s.charset = 'utf-8';s.src='http://assets.changyan.sohu.com/upload/changyan.js?conf=prod_e029d95858bd30163db74fbabd01e1ef&appid=cyrpC2SPf';h.insertBefore(s,h.firstChild);window.SCS_NO_IFRAME = true;})()</script>
- </div>
-<!-- //左边内容结束 -->
-<!-- //右边内容开始 -->
-<div class="pright"> 
- <div class="pright">
-  <div>
-   <dl class="tbox">
-    <dt><strong>栏目列表</strong></dt>
-    <dd>
-     <ul class="d6">
-      
-      <li><a href='/a/webbase/html/'>HTML</a></li>
-      
-      <li><a href='/a/webbase/div-css/'>DIV&CSS</a></li>
-      <li><a href='/a/webbase/javascript-ajax/' class='thisclass'>Javascript/Ajax</a></li>
-      <li><a href='/a/webbase/dreamweaver/'>Dreamweaver</a></li>
-      
-     </ul>
-    </dd>
-   </dl>
-  </div>
-  <div id="contentRtPicAD" style="margin:10px auto"><script type="text/javascript" src="http://ad.dedecms.com/adsview/?action=single&key=contentrtpicad&charset=gbk"></script></div>
-  <div class="commend mt1">
-   <dl class="tbox light">
-    <dt class='light'><strong>推荐内容</strong></dt>
-    <dd class='light'>
-     <ul class="d4">
-      <li><a href="/a/webbase/javascript-ajax/2010/0407/35.html">用JavaScript的日期对象操控时间和日</a>
-       <p>软件开发中一个比较棘手的内容是使用时间和日期值；似乎每种...</p>
-      </li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/43.html">JavaScript的9个陷阱及评点</a>
-       <p>来自Nine Javascript Gotchas, 以下是JavaScript容易犯错的九个陷阱。虽...</p>
-      </li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/52.html">完全了解AJAX</a>
-       <p>尽管AJAX是个相对新生的术语，但其背后的技术却并不新颖。我们...</p>
-      </li>
+  
+  </UL></DIV>
+<DIV class=clear></DIV></DIV></DIV>
+<DIV class=bottom_shadow></DIV>
 
-     </ul>
-    </dd>
-   </dl>
-  </div>
-  <!-- /commend -->
-  <div class="hot mt1">
-   <dl class="tbox light">
-    <dt class='light'><strong>热点内容</strong></dt>
-    <dd class='light'>
-     <ul class="c1 ico2">
-      <li><a href="/a/webbase/javascript-ajax/2010/0407/39.html">Web2.0十大Ajax安全漏洞以及</a></li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/34.html">JavaScript风格要素</a></li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/35.html">用JavaScript的日期对象操控</a></li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/36.html">减轻JavaScript测试和调试负</a></li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/37.html">使用AJAX技术的十大理由</a></li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/38.html">Ajax 技术入门简介</a></li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/40.html">JavaScript开发时的五个小提</a></li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/41.html">JavaScript：世界上误解最深</a></li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/42.html">JavaScript基础知识总结</a></li>
-<li><a href="/a/webbase/javascript-ajax/2010/0407/43.html">JavaScript的9个陷阱及评点</a></li>
+<DIV class=banner>
+<DIV class=loading>
+<DIV 
+style="TEXT-ALIGN: center; WIDTH: 100%; BACKGROUND: url(/templets/default/images/20140504083916_87607.jpg) no-repeat center top; HEIGHT: 230px"></DIV></DIV></DIV>
+<DIV class=maincontent>
+<DIV class=content>
+<DIV class=case_menu>
+<DIV class=case_menu_top>
+<DIV class=subnav>
 
-     </ul>
-    </dd>
-   </dl>
-  </div>
-  <div id="contentRtPicAD2" style="margin:10px auto"><script type="text/javascript" src="http://ad.dedecms.com/adsview/?action=single&key=contentrtpicad2&charset=gbk"></script></div>
- </div>
- <!-- /pright -->
-</div>
-<div id="innerfooterAD2" style="margin:10px auto; width:726px"><script type="text/javascript" src="http://ad.dedecms.com/adsview/?action=single&key=innerfooterad2&charset=gbk"></script></div>
+<A class=green 
+href="/a/webbase/html/">HTML</A>
 
-<!-- //底部模板 -->
-<div class="footer w960 center mt1 clear">
-	<!-- 
-		为了支持织梦团队的发展,请您保留织梦内容管理系统的链接信息.
-		我们对支持织梦团队发展的朋友表示真心的感谢!织梦因您更精彩!
-	-->
-    <div class="footer_left"></div>
-    <div class="footer_body">
-	<p class="powered">    
-		Powered by <a href="http://www.dedecms.com" title="织梦内容管理系统(DedeCms)--国内最专业的PHP网站管理系统，轻松建站的首选利器。" target="_blank"><strong>DedeCMS_V57_UTF8_SP1</strong></a> &copy; 2004-2011 <a href="http://www.desdev.cn/" target="_blank">DesDev</a> Inc.<br /><div class="copyright">Copyright &copy; 2002-2011 DEDECMS. 织梦科技 版权所有 <a href=http://www.dedecms.com target='_blank'>Power by DedeCms</a>&nbsp;&nbsp;</div></p>        
-<!-- /powered -->
-   </div>
-   <div class="footer_right"></div>
-</div>
-<!-- /footer -->
-</body>
-</html>
+<A class=green 
+href="/a/webbase/div-css/">DIV&CSS</A>
+
+<A class=green 
+href="/a/webbase/intro/">公司简介</A>
+<li><a href='/a/webbase/javascript-ajax/' class='thisclass'>Javascript/Ajax</a></li>
+<A class=green 
+href="/a/webbase/dreamweaver/">Dreamweaver</A>
+
+<A class=green 
+href="/jianjie/2/"> 我们的优势 	</A>
+
+<A class=green 
+href="/jianjie/2/">企业文化</A>
+</DIV></DIV></DIV>
+<BR>
+<H2 align="center">如何用JavaScript实现旋转木马</H2><BR>
+<P style="TEXT-ALIGN: center; MARGIN-TOP: 3px; WIDTH: auto">时间: <SPAN 
+style="COLOR: #999">2010-04-07</SPAN>&nbsp;&nbsp;&nbsp;&nbsp;来源: <SPAN 
+style="COLOR: #999">引擎科技</SPAN></P>&nbsp;
+
+<!-- Baidu Button BEGIN -->
+<BR><DIV id=bdshare class="bdshare_t bds_tools get-codes-bdshare"><SPAN 
+class=bds_more>分享到：</SPAN> <A class=bds_qzone></A><A class=bds_tsina></A><A 
+class=bds_tqq></A><A class=bds_renren></A><A class=bds_t163></A><A 
+class=shareCount></A></DIV>
+<SCRIPT id=bdshare_js type=text/javascript 
+data="type=tools&amp;uid=2463401"></SCRIPT>
+
+<SCRIPT id=bdshell_js type=text/javascript></SCRIPT>
+
+<SCRIPT type=text/javascript>
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</SCRIPT>
+<!-- Baidu Button END -->
+<DIV class=clear></DIV>
+<DIV 
+style="MARGIN-TOP: 3px; MARGIN-BOTTOM: 15px; BORDER-TOP: #ccc 1px dashed; PADDING-TOP: 6px" 
+class=nextandnev>
+上一篇：<a href='/a/webbase/javascript-ajax/2010/0407/49.html'>使用mashups可能会给用户带来不好体验</a> 
+<BR>下一篇：<a href='/a/webbase/javascript-ajax/2010/0407/51.html'>设计与应用JavaScript对象符号JSON</a> 
+<BR></DIV>
+</DIV>
+<DIV class=clear></DIV></DIV>
+<DIV class=clear></DIV>
+<DIV></DIV>
+<DIV class=hrey>
+<DIV class=w1000>
+<H2 class=partners>合作伙伴</H2>
+<DIV class=rollBox><A onmouseup=ISL_StopUp() class="LeftBotton png" 
+onmouseout=ISL_StopUp() onmousedown=ISL_GoUp()></A>
+<DIV id=ISL_Cont class=Cont>
+<DIV class=ScrCont>
+<DIV id=List1><!-- 图片大小：width="130" height="50"  begin -->
+<P class=pl><IMG title=光大银行 
+src="/templets/default/images/52aee08ed44ba.gif"></P>
+<P class=pl><IMG title=深圳市前海学校 
+src="/templets/default/images/52aed93e4a5e1.gif"></P>
+<P class=pl><IMG title=明亮物流 
+src="/templets/default/images/52aeda8d201ac.gif"></P>
+<P class=pl><IMG title=中国电信 
+src="/templets/default/images/52aed9fbd702c.gif"></P>
+<P class=pl><IMG title=无锡盈达聚力科技 
+src="/templets/default/images/52aedb394d44f.gif"></P>
+<P class=pl><IMG title=北京大学汇丰商学院 
+src="/templets/default/images/52aedbc262ff8.gif"></P>
+<P class=pl><IMG title=广东国方医药 
+src="/templets/default/images/52aedc5dbc5e4.gif"></P>
+<P class=pl><IMG title=深圳万厦装饰 
+src="/templets/default/images/52aedd6233ab2.gif"></P>
+<P class=pl><IMG title=创富志创始人俱乐部 
+src="/templets/default/images/52aeddf6a89d9.gif"></P>
+<P class=pl><IMG title=广东金苹果月饼 
+src="/templets/default/images/52aedefb07727.gif"></P><!-- 图片列表 end --></DIV>
+<DIV id=List2></DIV></DIV></DIV><A onmouseup=ISL_StopDown() 
+class="RightBotton png" onmouseout=ISL_StopDown() 
+onmousedown=ISL_GoDown()></A></DIV><!--End rollBox--->
+<DIV class=clear></DIV>
+
+
+
+<DIV class=fd_link>友情链接：
+<a href='http://www.dedecms.com' target='_blank'>织梦CMS官方</a> <a href='http://docs.dedecms.com/' target='_blank'>DedeCMS维基手册</a> <a href='http://bbs.dedecms.com' target='_blank'>织梦技术论坛</a> 
+<a href="http://www.dedemao.com/" target="_blank">dedecms模板</a>
+</DIV>
+<DIV class=clear></DIV></DIV></DIV>
+
+
+<DIV class=clear></DIV>
+<DIV id=footer>
+<DIV class=w1000>
+<P>Copyright &copy; 2002-2011 DEDECMS. 版权所有 Power by <a href='http://www.dedemao.com' target='_blank'>֯��è</a></P>
+<P><SPAN>服务热线：0375-88888888 &nbsp; 传真：0375-88888888 &nbsp; QQ: 88888888</SPAN> 
+</P>
+<P><SPAN>地址：洛阳市洛龙区宝龙生活广场对面&nbsp;</SPAN><SPAN>&nbsp;</SPAN> 
+</P><!--<img src="/LinkPHP/Tpl/Home/NewLinkpai/Public/index/wangan.jpg" border="0" alt="网安"/>-->
+
+</DIV></DIV><!--footer end-->
+
+</BODY></HTML>
