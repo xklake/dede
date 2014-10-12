@@ -1109,3 +1109,53 @@ BODY {
 .miaoshu {
     width:430PX; float:left; font-size:14PX;
 }
+
+
+.listbox
+{
+    margin: 4px 0px;height: 100%; background-color: green;display: block;
+}
+
+.listbox .e2
+{
+    margin: 0px 0px;
+    height: 100%;
+    float:left;
+    list-style-type:none;
+    width:100%;
+}
+
+
+.listbox .e2 li
+{
+    margin: 0px 0px 25px 0px;float:left;
+}
+
+
+.listbox .e2 li div
+{
+    margin: 0px 16px;
+}
+
+.listbox .e2 li div a
+{
+    margin: 0px 0px;
+}
+
+.listbox .e2 li div img
+{
+    width:300px; height: 200px;
+}
+
+
+
+.dede_pages
+{
+    float:clear;margin-left: 16px;margin-bottom: 10px;margin-top;20px;text-align: center;
+}
+
+.brif
+{
+    text-align: center;
+}
+.brif  p { line-height: 16px;margin:0px;}

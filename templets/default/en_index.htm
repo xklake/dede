@@ -1,0 +1,205 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><META content="IE=7.0000" 
+http-equiv="X-UA-Compatible">
+<title>{dede:global.cfg_webname/}</title>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META name=robots content="index, follow">
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="description" content="{dede:global.cfg_description/}" />
+<META name=GENERATOR content="MSHTML 8.00.6001.23580"><LINK title="RSS 2.0" 
+rel=alternate type=application/rss+xml 
+href="/index.php?m=Format&amp;a=rss"><LINK rel=stylesheet type=text/css 
+href="{dede:global.cfg_templets_skin/}/images/layout.css">
+<SCRIPT type=text/javascript 
+src="{dede:global.cfg_templets_skin/}/images/jquery.js"></SCRIPT>
+</HEAD>
+<BODY>
+
+{dede:include filename="en_head.htm"/}
+
+<DIV class=bottom_shadow></DIV><!--[if lt IE 9]>
+<SCRIPT src=""></SCRIPT>
+<![endif]-->
+<SCRIPT src="{dede:global.cfg_templets_skin/}/images/blocksit.min.js"></SCRIPT>
+
+<SCRIPT>
+jQuery(document).ready(function() {
+	 
+	
+	//blocksit define
+	jQuery(window).load( function() {
+		jQuery('#container').BlocksIt({
+			numOfCol: 3,
+			offsetX: 12,
+			offsetY: 12,
+			blockElement: '.grid'
+		});
+	});
+	
+	//window resize
+	var currentWidth = 1100;
+	jQuery(window).resize(function() {
+		var winWidth = jQuery(window).width();
+		var conWidth;
+		if(winWidth < 660) {
+			conWidth = 440;
+			col = 2
+		} else if(winWidth < 880) {
+			conWidth = 660;
+			col = 3
+		} else if(winWidth < 1100) {
+			conWidth = 880;
+			col = 4;
+		} else {
+			conWidth = 1100;
+			col = 5;
+		}
+		
+		if(conWidth != currentWidth) {
+			currentWidth = conWidth;
+			jQuery('#container').width(conWidth);
+			jQuery('#container').BlocksIt({
+				numOfCol: col,
+				offsetX: 8,
+				offsetY: 8
+			});
+		}
+	});
+});
+</SCRIPT>
+
+<STYLE>.logo_menu .menu UL.navigation LI A.m1 {
+	Z-INDEX: 999; POSITION: relative; BACKGROUND: #da251d; COLOR: #fff
+}
+</STYLE>
+
+<DIV class=banner>
+<SCRIPT type=text/javascript 
+src="{dede:global.cfg_templets_skin/}/images/jquery.plugin.min.js"></SCRIPT>
+
+<DIV id=banner>
+<UL id=banner_img>
+  <LI class=item1>
+  <DIV class=container>
+  <DIV class=ad_txt>
+  <H2>英国地产俱乐部</H2>
+  <P>英国地产俱乐部。<BR>英国地产俱乐部。</P></DIV>
+  <DIV class=ad_img><IMG alt="回馈买家"
+  src="{dede:global.cfg_templets_skin/}/images/banner_img1.png" 
+  width=620></DIV></DIV></LI>
+  <LI class=item2>
+  <DIV class=container>
+  <DIV class=ad_txt>
+  <H2>英国地产俱乐部</H2>
+ <P>英国地产俱乐部。<BR>英国地产俱乐部。</P></DIV>
+  <DIV class=ad_img><IMG alt="超低 佣金"
+  src="{dede:global.cfg_templets_skin/}/images/banner_img2.png"></DIV></DIV></LI>
+  <LI class=item3>
+  <DIV class=container>
+  <DIV class=ad_txt>
+  <H2>英国地产俱乐部</H2>
+  <P>英国地产俱乐部<BR>英国地产俱乐部 </P></DIV>
+  <DIV class=ad_img><IMG alt="委托 管理"
+  src="{dede:global.cfg_templets_skin/}/images/02.png"></DIV></DIV></LI>
+  <LI class=item4>
+  <DIV class=container>
+  <DIV class=ad_txt>
+  <H2>英国地产俱乐部</H2>
+  <P>英国地产俱乐部。<BR>英国地产俱乐部<BR>英国地产俱乐部。
+  </P></DIV>
+  <DIV class=ad_img><IMG alt="专业 服务"
+  src="{dede:global.cfg_templets_skin/}/images/banner_img4.png"></DIV></DIV></LI></UL>
+<DIV id=banner_ctr>
+<DIV id=drag_bg></DIV>
+<DIV id=drag_ctr></DIV>
+<UL>
+  <LI class=first-item></LI>
+  <LI>回馈买家 </LI>
+  <LI>超低佣金 </LI>
+  <LI>委托管理 </LI>
+  <LI>专业服务 </LI>
+  <LI class=last-item></LI></UL>
+<DIV id=drag_arrow></DIV></DIV></DIV><!--End banner-->
+<DIV class=clear></DIV>
+<SCRIPT type=text/javascript 
+src="{dede:global.cfg_templets_skin/}/images/fashionfoucs.js"></SCRIPT>
+</DIV>
+<DIV class=clear></DIV>
+<DIV class=maincontent>
+<DIV class=news_bg>
+<DIV class=w1000>
+<DIV class=h12></DIV>
+<DIV class=news_index>
+<H3 class=news_t>地产要闻</H3>
+<DIV id=scrolltxt>
+{dede:arclist typeid='3' row='5'}
+<SPAN class=time>— 20[field:pubdate function='strftime("%y-%m-%d",@me)'/]</SPAN> 
+<DIV><A title=[field:title/] 
+href="[field:arcurl/]">[field:title/]</A></DIV>
+{/dede:arclist}
+</DIV></DIV>
+<DIV class=bshare-custom><A class=bshare-qzone title=分享到QQ空间></A><A 
+class=bshare-sinaminiblog title=分享到新浪微博></A><A class=bshare-renren 
+title=分享到人人网></A><A class=bshare-qqmb title=分享到腾讯微博></A><A 
+class=bshare-neteasemb title=分享到网易微博></A><A 
+class="bshare-more bshare-more-icon more-style-addthis" title=更多平台></A><SPAN 
+class="BSHARE_COUNT bshare-share-count">0</SPAN></DIV></DIV></DIV>
+<DIV class=content>
+<DIV class=index_serve>
+<H1 class=index_h1>服务项目<SPAN
+style="FONT-SIZE: 12px; FONT-WEIGHT: normal"></SPAN></H1>
+<UL class=serve_ul>
+  <LI class=li1><A href="/yewu/1/">
+  <DIV class=pic_title>
+  <DIV class=pic></DIV>
+  <H1>服务项目1</H1></DIV>
+  <P>服务项目1111;服务项目1111服务项目1111服务项目1111服务项目1111服务项目1111服务项目1111</P></A></LI>
+  <LI class=li2><A href="/yewu/2/">
+  <DIV class=pic_title>
+  <DIV class=pic></DIV>
+  <H1>服务项目2</H1></DIV>
+  <P>服务项目2服务项目2服务项目2服务项目2服务项目2服务项目2服务项目2服务项目2服务项目2服务项目2 </P></A></LI>
+  <LI class=li3><A href="/">
+  <DIV class=pic_title>
+  <DIV class=pic></DIV>
+  <H1>服务项目3</H1></DIV>
+  <P>服务项目3服务项目3服务项目3服务项目3服务项目3服务项目3服务项目3</P></A></LI>
+  <LI class=li4><A href="/yewu/3/">
+  <DIV class=pic_title>
+  <DIV class=pic></DIV>
+  <H1>服务项目4</H1></DIV>
+  <P>服务项目4，服务项目4，服务项目4，服务项目4，服务项目4，服务项目4，服务项目4，服务项目4，。</P></A></LI></UL></DIV>
+<DIV class="clear h10"></DIV>
+<H1 class=index_h1><SPAN>房产展示</SPAN></H1><SECTION id=wrapper>
+<DIV id=container>
+{dede:arclist typeid='8' row='3'}
+<DIV class=grid><STRONG><A title=[field:title/] 
+href="[field:arcurl/]" 
+target=_blank>[field:title/]</A></STRONG> 
+<DIV class=imgholder><A title=[field:title/] 
+href="[field:arcurl/]" target=_blank><IMG 
+src="[field:litpic/]"></A></DIV>
+<P><A title=[field:title/] href="[field:arcurl/]" 
+target=_blank>[field:info/]..</A></P>
+<DIV class=meta><SPAN>[field:typelink/]</SPAN><A title=[field:title/] 
+href="[field:arcurl/]" 
+target=_blank><B></B></A></DIV></DIV>
+{/dede:arclist}
+<DIV class=clear></DIV></DIV>
+</SECTION>
+
+<DIV class="clear h10"></DIV></DIV>
+</DIV>
+
+<SCRIPT type=text/javascript charset=utf-8 
+src="{dede:global.cfg_templets_skin/}/images/buttonLite.js"></SCRIPT>
+
+<SCRIPT type=text/javascript charset=utf-8 
+src="{dede:global.cfg_templets_skin/}/images/bshareC0.js"></SCRIPT>
+
+<SCRIPT>var c,_=Function;
+with(o=document.getElementById("scrolltxt")){ innerHTML+=innerHTML; onmouseover=_("c=1"); onmouseout=_("c=0");}
+(F=_("if(#%22||!c)#++,#%=o.scrollHeight>>1;setTimeout(F,#%22?10:2000);".replace(/#/g,"o.scrollTop")))();
+</SCRIPT>
+{dede:include filename="en_footer.htm"/}
+</BODY></HTML>

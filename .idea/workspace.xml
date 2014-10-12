@@ -2,241 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4c03959-c24d-478c-8dec-fd548e141cf5" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\sessions\sess_b49bstc89536ap8odajo19hcn5" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\046fb106ec4c932ba6c7445aafa1fade.incfcd78f7ff20e225c.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\046fb106ec4c932ba6c7445aafa1fade.incfcd78f7ff20e225c.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\112ba24a7fdd6d1eced3064b1cc44712.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\112ba24a7fdd6d1eced3064b1cc44712.inc428cc0c514dee348.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\112ba24a7fdd6d1eced3064b1cc44712.inc428cc0c514dee348.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\164f4a29a3c75b86716c7f54479ab19f.inc6a9fc832a2308da8.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\164f4a29a3c75b86716c7f54479ab19f.inc6a9fc832a2308da8.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\16ff19ab5f249aae0c48b4217653f3fd.incab53cd2c994a8afb.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\16ff19ab5f249aae0c48b4217653f3fd.incab53cd2c994a8afb.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\192c04c629c95636b0450cf652909306.ince63da83f50ea33ee.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\192c04c629c95636b0450cf652909306.ince63da83f50ea33ee.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\1934aff5660ab84969eb9aa44d5dd907.inc993db2a430107274.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\1934aff5660ab84969eb9aa44d5dd907.inc993db2a430107274.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\19dee435ed5b8821521af889e4d74221.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\19dee435ed5b8821521af889e4d74221.incaf5f55a4c1a47615.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\19dee435ed5b8821521af889e4d74221.incaf5f55a4c1a47615.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\1a4c6b5f435312598291aa3db38adea1.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\1a4c6b5f435312598291aa3db38adea1.inc98d8059ec1f516e4.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\1a4c6b5f435312598291aa3db38adea1.inc98d8059ec1f516e4.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\1ae75bf4223084121cd6402481481bb6.ince05c4b6e9121f7ed.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\1ae75bf4223084121cd6402481481bb6.ince05c4b6e9121f7ed.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\1fd8c32e945c9c0654a19dd324a46592.incdf181a79117a38e7.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\1fd8c32e945c9c0654a19dd324a46592.incdf181a79117a38e7.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\232ed108f363ce476b20ade774e02fc1.inc27d9defa4249638d.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\232ed108f363ce476b20ade774e02fc1.inc27d9defa4249638d.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\2438cb0dcc2510d255f3912b3f762cad.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\2438cb0dcc2510d255f3912b3f762cad.inc7bd8477db3dc0298.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\2438cb0dcc2510d255f3912b3f762cad.inc7bd8477db3dc0298.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\24a947224f8fd4bfc1d88b99c8ef2603.inc743c7c5bdb3da36e.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\24a947224f8fd4bfc1d88b99c8ef2603.inc743c7c5bdb3da36e.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\25eae2c766049ca901972d2bc2e0fd08.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\25eae2c766049ca901972d2bc2e0fd08.inc0115fbe34f86e9cc.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\25eae2c766049ca901972d2bc2e0fd08.inc0115fbe34f86e9cc.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\282a554a895028794c627a9aa978fb8a.inc67b4ea7b782abc9a.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\282a554a895028794c627a9aa978fb8a.inc67b4ea7b782abc9a.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\292eeb3798f5de327aa35ca72f47e873.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\292eeb3798f5de327aa35ca72f47e873.inc9727c556109eec8b.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\292eeb3798f5de327aa35ca72f47e873.inc9727c556109eec8b.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\3252ca653598af6e64abec66bcb9fe36.incc30b136bca155a56.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\3252ca653598af6e64abec66bcb9fe36.incc30b136bca155a56.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\3358abde1503c3f0001fed1fbd30a77e.incefbb302965c4b6d6.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\3358abde1503c3f0001fed1fbd30a77e.incefbb302965c4b6d6.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\33978d1ddaf7279ae8fe25d673bf4b73.inc19551f8a36824242.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\33978d1ddaf7279ae8fe25d673bf4b73.inc19551f8a36824242.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\3b56c786c47a443c60a595f5a2f1b6ee.ince43047c7916cf45c.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\3b56c786c47a443c60a595f5a2f1b6ee.ince43047c7916cf45c.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\3c7c587627ceb3647be65512a97edbda.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\3c7c587627ceb3647be65512a97edbda.inc3bd5a4f0ab07414e.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\3c7c587627ceb3647be65512a97edbda.inc3bd5a4f0ab07414e.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\4490aa5caa60f2866d98cac5efce3613.inca3e8ce4d40d61a7b.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\4490aa5caa60f2866d98cac5efce3613.inca3e8ce4d40d61a7b.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\44ef1e2c0d2394f24a7150b2d27f19a5.ince49c840fd3207282.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\44ef1e2c0d2394f24a7150b2d27f19a5.ince49c840fd3207282.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\4b7d90412b280568c8f9dba1af698441.inc3020dd9774605a54.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\4b7d90412b280568c8f9dba1af698441.inc3020dd9774605a54.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\51bc1da06c04860ba0dd6dc929e47af7.inc4bfe846f0d73ede1.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\51bc1da06c04860ba0dd6dc929e47af7.inc4bfe846f0d73ede1.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\556381caf5337719509b7711a5974cea.inc00d1381e573f0724.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\556381caf5337719509b7711a5974cea.inc00d1381e573f0724.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\5694af74171af487e4759f02c22296ce.incf6f4a9bade6283bd.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\5694af74171af487e4759f02c22296ce.incf6f4a9bade6283bd.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\5817143711baa43fac803bc7478a59da.incb3615dd4c36080ba.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\5817143711baa43fac803bc7478a59da.incb3615dd4c36080ba.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\58bee2414bcc08697bdcfa65d9494bec.inc60aa043fa0e84084.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\58bee2414bcc08697bdcfa65d9494bec.inc60aa043fa0e84084.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\59a4e8d00daba338aba975454ea84710.incb56aeaa74e0a9a92.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\59a4e8d00daba338aba975454ea84710.incb56aeaa74e0a9a92.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\59b64083a1ed6910ea3c923b4561a19d.inc5b0cc3ac40d69f0c.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\59b64083a1ed6910ea3c923b4561a19d.inc5b0cc3ac40d69f0c.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\5a3dbd988296796ded3b56c81e8a97e5.inc382cb3c230d36037.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\5a3dbd988296796ded3b56c81e8a97e5.inc382cb3c230d36037.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\5c5552104c6431f24039ebf2f4b3ba75.inc068c5c14d5e51d7a.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\5c5552104c6431f24039ebf2f4b3ba75.inc068c5c14d5e51d7a.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\5e091951b05fe0b1a250f1fbbc039292.inc23a7904fe46b6a61.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\5e091951b05fe0b1a250f1fbbc039292.inc23a7904fe46b6a61.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\63b827ece7a0662ef763ef827f367801.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\63b827ece7a0662ef763ef827f367801.incebdb76120cf69874.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\63b827ece7a0662ef763ef827f367801.incebdb76120cf69874.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\6af56f41697a8a8d37817f20136d3baa.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\6af56f41697a8a8d37817f20136d3baa.incea7da5fd558d965a.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\6af56f41697a8a8d37817f20136d3baa.incea7da5fd558d965a.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\6bfe7adfc06f1d420a322b00e4336e1f.inc57f66501bdd1be6f.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\6bfe7adfc06f1d420a322b00e4336e1f.inc57f66501bdd1be6f.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\6eb32f896110fab7dcb177de10beab63.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\6eb32f896110fab7dcb177de10beab63.inc5753001426ab306d.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\6eb32f896110fab7dcb177de10beab63.inc5753001426ab306d.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\6efaa20ad652ee06d0ae06379369cb45.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\6efaa20ad652ee06d0ae06379369cb45.inc212b60830eabad0f.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\6efaa20ad652ee06d0ae06379369cb45.inc212b60830eabad0f.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\7544900b0972b1cefe2aa81ce9152977.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\7544900b0972b1cefe2aa81ce9152977.inca0ba8ffb4f3d1406.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\7544900b0972b1cefe2aa81ce9152977.inca0ba8ffb4f3d1406.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\7cc0e3bd3c7f322729a73b1945dcf4ad.inc0d1d297f4e4927e0.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\7cc0e3bd3c7f322729a73b1945dcf4ad.inc0d1d297f4e4927e0.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\8448a9a63ef33e87596a103824355ff1.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\8448a9a63ef33e87596a103824355ff1.inc89e2f6416b18f5fc.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\8448a9a63ef33e87596a103824355ff1.inc89e2f6416b18f5fc.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\84dafc3135ab58984c4b2d361433a765.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\84dafc3135ab58984c4b2d361433a765.inc1142e2b252945028.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\84dafc3135ab58984c4b2d361433a765.inc1142e2b252945028.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\8cea2bfc491a7909b9f03c6162223779.inc65a1a432614d1c96.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\8cea2bfc491a7909b9f03c6162223779.inc65a1a432614d1c96.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\8e11fa1603d479216efbbaaa9c733f75.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\8e11fa1603d479216efbbaaa9c733f75.incd128dca73a614655.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\8e11fa1603d479216efbbaaa9c733f75.incd128dca73a614655.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\91620bd04957e557ac769745fb4900fd.inca2d9f5c714743fbf.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\91620bd04957e557ac769745fb4900fd.inca2d9f5c714743fbf.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\9185ab051fa58d4306bd0d5e0580c954.incdeaa9644ee1f7afd.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\9185ab051fa58d4306bd0d5e0580c954.incdeaa9644ee1f7afd.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\91940327547e1acfeba035c32f5a4fae.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\91940327547e1acfeba035c32f5a4fae.inc2e6e35c9b1eb971e.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\91940327547e1acfeba035c32f5a4fae.inc2e6e35c9b1eb971e.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\92640a5ee2788ace741fe038a46d8c5f.incab09647079107ece.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\92640a5ee2788ace741fe038a46d8c5f.incab09647079107ece.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\9488b0133b7e23006d6eee8beeae730e.incc6094baa1b6ac6b5.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\9488b0133b7e23006d6eee8beeae730e.incc6094baa1b6ac6b5.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\96a29295454412683394df9c0a615e15.inccd1704c0f66c5994.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\96a29295454412683394df9c0a615e15.inccd1704c0f66c5994.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\98041440c7b1444be7c19698bfaf28f9.inc64f9085eff0f055d.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\98041440c7b1444be7c19698bfaf28f9.inc64f9085eff0f055d.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\9d05a89714ee84cfc64db50e85a15674.inc7adc067f7d7f6926.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\9d05a89714ee84cfc64db50e85a15674.inc7adc067f7d7f6926.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\a39d63e703d2474e8200a11db026de08.incdfb2bc367748cb0b.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\a39d63e703d2474e8200a11db026de08.incdfb2bc367748cb0b.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\a544c74ac6e6566e877dadfc27fda324.incb30da86cf714296e.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\a544c74ac6e6566e877dadfc27fda324.incb30da86cf714296e.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\ac90adcf81ddf7d5c31caab205a0321a.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\ac90adcf81ddf7d5c31caab205a0321a.incbf770dd9690999f7.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\ac90adcf81ddf7d5c31caab205a0321a.incbf770dd9690999f7.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\acdf5950c287fc8451cca9f2356472a4.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\acdf5950c287fc8451cca9f2356472a4.inc8088dc964e70c088.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\acdf5950c287fc8451cca9f2356472a4.inc8088dc964e70c088.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\ad9c88010cfe8c66dab4076d095d7779.incc3a736b92d239855.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\ad9c88010cfe8c66dab4076d095d7779.incc3a736b92d239855.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\ae5ac8039afe8b58d9a3aab825ebd75e.ince23a905554a131ea.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\ae5ac8039afe8b58d9a3aab825ebd75e.ince23a905554a131ea.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\ajaxfeedback.htm0d2227cb23bd9fe4.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\ajaxfeedback.htm0d2227cb23bd9fe4.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\article_article.htm693bef4b2519e92c.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\article_article.htm693bef4b2519e92c.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\article_image.htm525e6e50d2b65b7c.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\article_image.htm525e6e50d2b65b7c.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\article_infos.htm29ac9b2c2a828f75.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\article_infos.htm29ac9b2c2a828f75.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\article_shop.htm1dae793ba554fb04.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\article_shop.htm1dae793ba554fb04.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\article_soft.htmb7911e10d64a6694.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\article_soft.htmb7911e10d64a6694.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\b892babc0b5d4eb662211661d82da954.inc5d5c54b57c9f3b16.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\b892babc0b5d4eb662211661d82da954.inc5d5c54b57c9f3b16.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\bbff65c7ddaf472778bac406632bad60.inc85e3920766ba85c9.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\bbff65c7ddaf472778bac406632bad60.inc85e3920766ba85c9.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\be4d376e56650bf67cf21b412cd2bce6.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\be4d376e56650bf67cf21b412cd2bce6.inc348a03f175187866.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\be4d376e56650bf67cf21b412cd2bce6.inc348a03f175187866.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\beebb4e61068ca443a2406ea54280659.inc8fb1b058ded0001e.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\beebb4e61068ca443a2406ea54280659.inc8fb1b058ded0001e.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\c2a05e0ade4ec85ca77dc4298b6a2823.inc0d8e41e27fc7be82.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\c2a05e0ade4ec85ca77dc4298b6a2823.inc0d8e41e27fc7be82.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\c61cc1b4cd098d9dff66654ef709e7b1.inc5a72335f4c9d7eb3.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\c61cc1b4cd098d9dff66654ef709e7b1.inc5a72335f4c9d7eb3.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\ca6e39d7d91270ee077671bd189325ff.inc03c88fee776c1fed.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\ca6e39d7d91270ee077671bd189325ff.inc03c88fee776c1fed.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\cc3e4f82bfeaae258d714081a151946c.incdb9e957c394d87c2.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\cc3e4f82bfeaae258d714081a151946c.incdb9e957c394d87c2.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\content_list_3ec5df3d54bee5a7dc262ed2.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\d45710aa30d1f341ac6d97d6584f3b87.incaefaf983555eb962.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\d45710aa30d1f341ac6d97d6584f3b87.incaefaf983555eb962.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\d5d77827ce84b05793e16443629832d4.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\d5d77827ce84b05793e16443629832d4.incd04c02cda0ceb247.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\d5d77827ce84b05793e16443629832d4.incd04c02cda0ceb247.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\d85599a79a43355f2ceb0214c099688b.inc2a282ed7a0814469.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\d85599a79a43355f2ceb0214c099688b.inc2a282ed7a0814469.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\da5de315abe4d421146932095421e856.incad0ccbcd081dce16.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\da5de315abe4d421146932095421e856.incad0ccbcd081dce16.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\dab83387db613f235a2d6798bf90f244.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\dab83387db613f235a2d6798bf90f244.inc9e2b0fab55b8dcd3.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\dab83387db613f235a2d6798bf90f244.inc9e2b0fab55b8dcd3.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\dc35949da1ca27a43d84e8328193fe66.incf1a6a82ed1e8cee5.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\dc35949da1ca27a43d84e8328193fe66.incf1a6a82ed1e8cee5.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\e10306ed0745f1f448fdeee693dfb2a7.inc125872db4d4d61cb.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\e10306ed0745f1f448fdeee693dfb2a7.inc125872db4d4d61cb.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\e673f43c18832847bde41ac51e51079d.inc3198aec7ee99c9d5.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\e673f43c18832847bde41ac51e51079d.inc3198aec7ee99c9d5.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\e717f84075395889eebc0228dcdf8818.inc6b7f8531d2d5ffd4.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\e717f84075395889eebc0228dcdf8818.inc6b7f8531d2d5ffd4.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\efdf21bd56caf78b7ce6749a55b59a39.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\efdf21bd56caf78b7ce6749a55b59a39.inccda0e5bce0423ebd.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\efdf21bd56caf78b7ce6749a55b59a39.inccda0e5bce0423ebd.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\f759a8cbc5e8a85c4ab98f7307626e7f.inc340a70f057c6480d.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\f759a8cbc5e8a85c4ab98f7307626e7f.inc340a70f057c6480d.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\f8bbea738dd831a2ed838543969aca6a.inc6c20136698286a50.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\f8bbea738dd831a2ed838543969aca6a.inc6c20136698286a50.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\fb137d0e220f6be7679dba5fe6c6fe64.inc9d29141ec73e8469.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\fb137d0e220f6be7679dba5fe6c6fe64.inc9d29141ec73e8469.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\fd8127d1d225bdc34e824fad40fa0337.incb6367a83b366f9e9.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\fd8127d1d225bdc34e824fad40fa0337.incb6367a83b366f9e9.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\fe5700c310a19a6887e118f3ce379e4e.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\fe5700c310a19a6887e118f3ce379e4e.inc7298c1d392a5f098.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\fe5700c310a19a6887e118f3ce379e4e.inc7298c1d392a5f098.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\footer.htm23f71c8aa0a6a441.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\footer.htm23f71c8aa0a6a441.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\head.htm96459a26b6ce009b.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\head.htm96459a26b6ce009b.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\head2.htmbcdb83039b437ba6.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\head2.htmbcdb83039b437ba6.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\index.htm43b55b556dbca471.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\index.htm43b55b556dbca471.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\index_article.htm54a94028019ac4bd.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\index_article.htm54a94028019ac4bd.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\list_article.htm702682f35bfb04ac.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\list_article.htm702682f35bfb04ac.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\list_image.htmfa72285eee8952f5.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\list_image.htmfa72285eee8952f5.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\list_infos.htmb5a562139b388301.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\list_infos.htmb5a562139b388301.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\list_shop.htm2184593f297b2b31.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\list_shop.htm2184593f297b2b31.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\list_soft.htm7633405429996163.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\list_soft.htm7633405429996163.inc.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\member_main_5af3382488450297a836a6c8.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\member_main_5af3382488450297a836a6c8_config.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\member_model_main_18c7209aa5e9f54cba91a1b8.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\quickmenu-1.txt73fc143b2353db97.inc" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\data\tplcache\quickmenu-1.txt73fc143b2353db97.inc.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/infos/2010/0407/100.html" afterPath="$PROJECT_DIR$/a/infos/2010/0407/100.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/infos/2010/0407/101.html" afterPath="$PROJECT_DIR$/a/infos/2010/0407/101.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/infos/2010/0407/102.html" afterPath="$PROJECT_DIR$/a/infos/2010/0407/102.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/infos/2010/0407/103.html" afterPath="$PROJECT_DIR$/a/infos/2010/0407/103.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/infos/2010/0407/104.html" afterPath="$PROJECT_DIR$/a/infos/2010/0407/104.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/infos/2010/0407/105.html" afterPath="$PROJECT_DIR$/a/infos/2010/0407/105.html" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\a\shops\2010\0407\82.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\a\shops\2010\0407\83.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\a\shops\2010\0407\84.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\a\shops\2010\0407\85.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\a\shops\2010\0407\86.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\a\shops\2010\0407\87.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\a\shops\2014\1010\108.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\a\shops\2014\1010\109.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\dede\a\shops\2014\1010\110.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/1.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/10.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/10.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0408/106.html" afterPath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0408/106.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/11.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/11.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/12.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/12.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/13.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/13.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/14.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/14.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/15.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/15.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/16.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/16.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/html/2010/0407/17.html" afterPath="$PROJECT_DIR$/a/webbase/html/2010/0407/17.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/18.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/18.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/19.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/19.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/2.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/20.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/20.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/21.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/21.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/22.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/22.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/23.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/23.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/24.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/24.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/25.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/25.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/26.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/26.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/27.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/27.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/28.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/28.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/29.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/29.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/listcache/2e/45/23/2e4523111cc0c6955b5d42272c9b7f7b.php" afterPath="$PROJECT_DIR$/data/cache/listcache/2e/45/23/2e4523111cc0c6955b5d42272c9b7f7b.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/3.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/30.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/30.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/31.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/31.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/32.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/32.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/33.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/33.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/34.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/34.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/35.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/35.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/36.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/36.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/37.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/37.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/38.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/38.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/39.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/39.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/4.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/4.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2010/0407/40.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2010/0407/40.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2010/0407/41.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2010/0407/41.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2010/0407/42.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2010/0407/42.html" />
@@ -247,6 +57,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2010/0407/47.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2010/0407/47.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2010/0407/48.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2010/0407/48.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2010/0407/49.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2010/0407/49.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/5.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/5.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2010/0407/50.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2010/0407/50.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2010/0407/51.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2010/0407/51.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2010/0407/52.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2010/0407/52.html" />
@@ -257,6 +68,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/57.html" afterPath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/57.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/58.html" afterPath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/58.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/59.html" afterPath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/59.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/6.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/6.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/60.html" afterPath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/60.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/61.html" afterPath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/61.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/62.html" afterPath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/62.html" />
@@ -267,16 +79,19 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/67.html" afterPath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/67.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/68.html" afterPath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/68.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/69.html" afterPath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/69.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/7.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/7.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/70.html" afterPath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/70.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/71.html" afterPath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/71.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/72.html" afterPath="$PROJECT_DIR$/a/webbase/dreamweaver/2010/0407/72.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/downloads/2014/0904/73.html" afterPath="$PROJECT_DIR$/a/downloads/2014/0904/73.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/downloads/2014/0904/74.html" afterPath="$PROJECT_DIR$/a/downloads/2014/0904/74.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/downloads/2014/0904/75.html" afterPath="$PROJECT_DIR$/a/downloads/2014/0904/75.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/downloads/2014/0904/76.html" afterPath="$PROJECT_DIR$/a/downloads/2014/0904/76.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/downloads/2014/0904/77.html" afterPath="$PROJECT_DIR$/a/downloads/2014/0904/77.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/downloads/2014/0904/78.html" afterPath="$PROJECT_DIR$/a/downloads/2014/0904/78.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0906/79.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0906/79.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/8.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/8.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/downloads/2010/0407/80.html" afterPath="$PROJECT_DIR$/a/downloads/2010/0407/80.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/shops/2010/0407/82.html" afterPath="$PROJECT_DIR$/a/shops/2010/0407/82.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/shops/2010/0407/83.html" afterPath="$PROJECT_DIR$/a/shops/2010/0407/83.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/shops/2010/0407/84.html" afterPath="$PROJECT_DIR$/a/shops/2010/0407/84.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/shops/2010/0407/85.html" afterPath="$PROJECT_DIR$/a/shops/2010/0407/85.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/shops/2010/0407/86.html" afterPath="$PROJECT_DIR$/a/shops/2010/0407/86.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/shops/2010/0407/87.html" afterPath="$PROJECT_DIR$/a/shops/2010/0407/87.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/pics/2010/0407/88.html" afterPath="$PROJECT_DIR$/a/pics/2010/0407/88.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/pics/2010/0407/88_2.html" afterPath="$PROJECT_DIR$/a/pics/2010/0407/88_2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/pics/2010/0407/88_3.html" afterPath="$PROJECT_DIR$/a/pics/2010/0407/88_3.html" />
@@ -288,6 +103,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/pics/2010/0407/89_4.html" afterPath="$PROJECT_DIR$/a/pics/2010/0407/89_4.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/pics/2010/0407/89_5.html" afterPath="$PROJECT_DIR$/a/pics/2010/0407/89_5.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/pics/2010/0407/89_6.html" afterPath="$PROJECT_DIR$/a/pics/2010/0407/89_6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/listcache/8b/3a/ea/8b3aea8234532153fa5f5f32b1fe2a84.php" afterPath="$PROJECT_DIR$/data/cache/listcache/8b/3a/ea/8b3aea8234532153fa5f5f32b1fe2a84.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/9.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/2014/0726/9.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/pics/2010/0407/90.html" afterPath="$PROJECT_DIR$/a/pics/2010/0407/90.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/pics/2010/0407/90_2.html" afterPath="$PROJECT_DIR$/a/pics/2010/0407/90_2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/pics/2010/0407/90_3.html" afterPath="$PROJECT_DIR$/a/pics/2010/0407/90_3.html" />
@@ -297,7 +114,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/pics/2010/0407/91_2.html" afterPath="$PROJECT_DIR$/a/pics/2010/0407/91_2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/pics/2010/0407/91_3.html" afterPath="$PROJECT_DIR$/a/pics/2010/0407/91_3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/html/2010/0407/92.html" afterPath="$PROJECT_DIR$/a/webbase/html/2010/0407/92.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/92640a5ee2788ace741fe038a46d8c5f.inc" afterPath="$PROJECT_DIR$/data/tplcache/92640a5ee2788ace741fe038a46d8c5f.inc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/pics/2010/0407/93.html" afterPath="$PROJECT_DIR$/a/pics/2010/0407/93.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/pics/2010/0407/93_2.html" afterPath="$PROJECT_DIR$/a/pics/2010/0407/93_2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/pics/2010/0407/93_3.html" afterPath="$PROJECT_DIR$/a/pics/2010/0407/93_3.html" />
@@ -318,47 +134,63 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/pics/2010/0407/96_3.html" afterPath="$PROJECT_DIR$/a/pics/2010/0407/96_3.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/pics/2010/0407/96_4.html" afterPath="$PROJECT_DIR$/a/pics/2010/0407/96_4.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/pics/2010/0407/96_5.html" afterPath="$PROJECT_DIR$/a/pics/2010/0407/96_5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/infos/2010/0407/99.html" afterPath="$PROJECT_DIR$/a/infos/2010/0407/99.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/listcache/9e/aa/95/9eaa95059dbc8494fa3fc58af93b6b0a.php" afterPath="$PROJECT_DIR$/data/cache/listcache/9e/aa/95/9eaa95059dbc8494fa3fc58af93b6b0a.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/memberlogin/a8/7f/f6/a87ff679a2f3e71d9181a67b7542122c.php" afterPath="$PROJECT_DIR$/data/cache/memberlogin/a8/7f/f6/a87ff679a2f3e71d9181a67b7542122c.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/ad9c88010cfe8c66dab4076d095d7779.inc" afterPath="$PROJECT_DIR$/data/tplcache/ad9c88010cfe8c66dab4076d095d7779.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/article_article.htm" afterPath="$PROJECT_DIR$/templets/default/article_article.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/listcache/ac/33/37/ac3337f3a3367bee1f7d2e2b50bd466a.php" afterPath="$PROJECT_DIR$/data/cache/listcache/ac/33/37/ac3337f3a3367bee1f7d2e2b50bd466a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/article_shop.htm4a6752cdeca49b55.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/article_shop.htm4a6752cdeca49b55.inc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/article_shop.htm4a6752cdeca49b55.inc" afterPath="$PROJECT_DIR$/data/tplcache/article_shop.htm4a6752cdeca49b55.inc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/article_shop.htm" afterPath="$PROJECT_DIR$/templets/default/article_shop.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/flink/b7/06/83/b706835de79a2b4e80506f582af3676a.php" afterPath="$PROJECT_DIR$/data/cache/flink/b7/06/83/b706835de79a2b4e80506f582af3676a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/beebb4e61068ca443a2406ea54280659.inc" afterPath="$PROJECT_DIR$/data/tplcache/beebb4e61068ca443a2406ea54280659.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/listcache/b0/e0/72/b0e0727b9c739c0fb49e8bccbac035ca.php" afterPath="$PROJECT_DIR$/data/cache/listcache/b0/e0/72/b0e0727b9c739c0fb49e8bccbac035ca.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/changyan/c1/33/67/c13367945d5d4c91047b3b50234aa7ab.php" afterPath="$PROJECT_DIR$/data/cache/changyan/c1/33/67/c13367945d5d4c91047b3b50234aa7ab.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/memberlogin/c4/ca/42/c4ca4238a0b923820dcc509a6f75849b.php" afterPath="$PROJECT_DIR$/data/cache/memberlogin/c4/ca/42/c4ca4238a0b923820dcc509a6f75849b.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/listcache/cb/b8/64/cbb86498c0e0f772aefc702640273e98.php" afterPath="$PROJECT_DIR$/data/cache/listcache/cb/b8/64/cbb86498c0e0f772aefc702640273e98.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/listcache/cf/07/bc/cf07bc692ccc4aaf6f95267def4cb40a.php" afterPath="$PROJECT_DIR$/data/cache/listcache/cf/07/bc/cf07bc692ccc4aaf6f95267def4cb40a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/config.cache.inc.php" afterPath="$PROJECT_DIR$/data/config.cache.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/dedesql.class.php" afterPath="$PROJECT_DIR$/include/dedesql.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/footer.htm" afterPath="$PROJECT_DIR$/templets/default/footer.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/head.htm2fbf0152dc7bd2b4.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/head.htm2fbf0152dc7bd2b4.inc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/head.htm2fbf0152dc7bd2b4.inc" afterPath="$PROJECT_DIR$/data/tplcache/head.htm2fbf0152dc7bd2b4.inc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/head.htm" afterPath="$PROJECT_DIR$/templets/default/head.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/inc_catalog_base.inc" afterPath="$PROJECT_DIR$/data/cache/inc_catalog_base.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/index.htm" afterPath="$PROJECT_DIR$/templets/default/index.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/a/webbase/index.html" afterPath="$PROJECT_DIR$/a/a/webbase/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/contact/2/index.html" afterPath="$PROJECT_DIR$/a/contact/2/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/downloads/index.html" afterPath="$PROJECT_DIR$/a/downloads/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/infos/index.html" afterPath="$PROJECT_DIR$/a/infos/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/pics/index.html" afterPath="$PROJECT_DIR$/a/pics/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/shops/index.html" afterPath="$PROJECT_DIR$/a/shops/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/index.html" afterPath="$PROJECT_DIR$/a/webbase/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/div-css/index.html" afterPath="$PROJECT_DIR$/a/webbase/div-css/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/dreamweaver/index.html" afterPath="$PROJECT_DIR$/a/webbase/dreamweaver/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/html/index.html" afterPath="$PROJECT_DIR$/a/webbase/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/intro/index.html" afterPath="$PROJECT_DIR$/a/webbase/intro/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/index.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/index_shop.htm" afterPath="$PROJECT_DIR$/templets/default/index_shop.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jianjie/2/index.html" afterPath="$PROJECT_DIR$/jianjie/2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/images/layout.css" afterPath="$PROJECT_DIR$/templets/default/images/layout.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/intro/list_12_1.html" afterPath="$PROJECT_DIR$/a/webbase/intro/list_12_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jianjie/2/list_13_1.html" afterPath="$PROJECT_DIR$/jianjie/2/list_13_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jianjie/2/list_14_1.html" afterPath="$PROJECT_DIR$/jianjie/2/list_14_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/contact/2/list_15_1.html" afterPath="$PROJECT_DIR$/a/contact/2/list_15_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/a/webbase/list_16_1.html" afterPath="$PROJECT_DIR$/a/a/webbase/list_16_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jianjie/2/list_1_1.html" afterPath="$PROJECT_DIR$/jianjie/2/list_1_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jianjie/2/list_1_2.html" afterPath="$PROJECT_DIR$/jianjie/2/list_1_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jianjie/2/list_1_3.html" afterPath="$PROJECT_DIR$/jianjie/2/list_1_3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jianjie/2/list_1_4.html" afterPath="$PROJECT_DIR$/jianjie/2/list_1_4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jianjie/2/list_1_5.html" afterPath="$PROJECT_DIR$/jianjie/2/list_1_5.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jianjie/2/list_1_6.html" afterPath="$PROJECT_DIR$/jianjie/2/list_1_6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jianjie/2/list_1_7.html" afterPath="$PROJECT_DIR$/jianjie/2/list_1_7.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/html/list_2_1.html" afterPath="$PROJECT_DIR$/a/webbase/html/list_2_1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/html/list_2_2.html" afterPath="$PROJECT_DIR$/a/webbase/html/list_2_2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/div-css/list_3_1.html" afterPath="$PROJECT_DIR$/a/webbase/div-css/list_3_1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/div-css/list_3_2.html" afterPath="$PROJECT_DIR$/a/webbase/div-css/list_3_2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/list_4_1.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/list_4_1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/list_4_2.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/list_4_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/list_4_3.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/list_4_3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/list_4_4.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/list_4_4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/javascript-ajax/list_4_5.html" afterPath="$PROJECT_DIR$/a/webbase/javascript-ajax/list_4_5.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/dreamweaver/list_5_1.html" afterPath="$PROJECT_DIR$/a/webbase/dreamweaver/list_5_1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/webbase/dreamweaver/list_5_2.html" afterPath="$PROJECT_DIR$/a/webbase/dreamweaver/list_5_2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/pics/list_6_1.html" afterPath="$PROJECT_DIR$/a/pics/list_6_1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/downloads/list_7_1.html" afterPath="$PROJECT_DIR$/a/downloads/list_7_1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/shops/list_8_1.html" afterPath="$PROJECT_DIR$/a/shops/list_8_1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/infos/list_9_1.html" afterPath="$PROJECT_DIR$/a/infos/list_9_1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/list_article.htm" afterPath="$PROJECT_DIR$/templets/default/list_article.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/list_shop.htm" afterPath="$PROJECT_DIR$/templets/default/list_shop.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/list_shop.htmc4eb2020fd5ef563.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/list_shop.htmc4eb2020fd5ef563.inc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/list_shop.htmc4eb2020fd5ef563.inc" afterPath="$PROJECT_DIR$/data/tplcache/list_shop.htmc4eb2020fd5ef563.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/singlepage.htm23e4c23d0af4248e.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/singlepage.htm23e4c23d0af4248e.inc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/singlepage.htm23e4c23d0af4248e.inc" afterPath="$PROJECT_DIR$/data/tplcache/singlepage.htm23e4c23d0af4248e.inc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/default/singlepage.htm" afterPath="$PROJECT_DIR$/templets/default/singlepage.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dede.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -381,73 +213,99 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.htm" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templets/default/index.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="57" selection-start="3500" selection-end="3512" vertical-scroll-proportion="0.84046245" vertical-offset="2125" max-vertical-offset="4853">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templets/default/footer.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="3" selection-start="292" selection-end="292" vertical-scroll-proportion="-8.625" vertical-offset="0" max-vertical-offset="575">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templets/default/style/layout.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17066">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templets/default/images/layout.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="866" column="27" selection-start="33140" selection-end="33145" vertical-scroll-proportion="-12.68" vertical-offset="19601" max-vertical-offset="25668">
+            <state line="1142" column="1" selection-start="40635" selection-end="40635" vertical-scroll-proportion="0.0" vertical-offset="24184" max-vertical-offset="26818">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templets/default/head.htm">
+      <file leaf-file-name="article_shop.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/default/article_shop.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="63" selection-start="505" selection-end="505" vertical-scroll-proportion="-6.46875" vertical-offset="0" max-vertical-offset="874">
+            <state line="88" column="58" selection-start="4000" selection-end="4000" vertical-scroll-proportion="-63.25" vertical-offset="0" max-vertical-offset="2829">
+              <folding>
+                <element signature="n#style#0;n#DIV#0;n#DIV#0;n#DIV#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en_article_shop.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/default/en_article_shop.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="103" column="58" selection-start="4553" selection-end="4553" vertical-scroll-proportion="-41.78125" vertical-offset="1032" max-vertical-offset="2806">
+              <folding>
+                <element signature="n#style#0;n#DIV#0;n#DIV#0;n#DIV#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="singlepage.htm" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templets/default/singlepage.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="58" selection-start="1403" selection-end="1411" vertical-scroll-proportion="0.46516854" vertical-offset="207" max-vertical-offset="1104">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_article.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templets/default/index_article.htm">
+      <file leaf-file-name="en_head.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/default/en_head.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="22" selection-start="873" selection-end="873" vertical-scroll-proportion="-6.46875" vertical-offset="207" max-vertical-offset="3243">
+            <state line="26" column="29" selection-start="1064" selection-end="1066" vertical-scroll-proportion="-17.03125" vertical-offset="53" max-vertical-offset="943">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_default.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templets/default/index_default.htm">
+      <file leaf-file-name="list_article.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/default/list_article.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3381">
+            <state line="22" column="0" selection-start="1237" selection-end="1256" vertical-scroll-proportion="-5.0" vertical-offset="1" max-vertical-offset="966">
+              <folding>
+                <element signature="tag#HEAD#0;tag#HTML#0" expanded="false" />
+                <element signature="tag#DIV#1;tag#BODY#0;tag#HTML#0" expanded="false" />
+                <element signature="tag#DIV#0;tag#DIV#1;tag#BODY#0;tag#HTML#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_img.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/default/list_img.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2599">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_infos.htm" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templets/default/index_infos.htm">
+      <file leaf-file-name="list_default.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/default/list_default.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="8" selection-start="748" selection-end="748" vertical-scroll-proportion="7.1875" vertical-offset="552" max-vertical-offset="2806">
+            <state line="18" column="27" selection-start="972" selection-end="972" vertical-scroll-proportion="-0.0" vertical-offset="414" max-vertical-offset="2139">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en_head2.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/default/en_head2.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="24" selection-start="1719" selection-end="1719" vertical-scroll-proportion="0.0" vertical-offset="621" max-vertical-offset="1334">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en_index_article.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/default/en_index_article.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="24" selection-start="716" selection-end="716" vertical-scroll-proportion="-0.71875" vertical-offset="253" max-vertical-offset="3243">
               <folding />
             </state>
           </provider>
@@ -466,10 +324,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/templets/default/head.htm" />
-        <option value="$PROJECT_DIR$/templets/default/images/layout.css" />
         <option value="$PROJECT_DIR$/templets/default/footer.htm" />
         <option value="$PROJECT_DIR$/templets/default/index.htm" />
+        <option value="$PROJECT_DIR$/templets/default/en_list_article.htm" />
+        <option value="$PROJECT_DIR$/templets/default/en_index_shop.htm" />
+        <option value="$PROJECT_DIR$/templets/default/en_index_article.htm" />
+        <option value="$PROJECT_DIR$/templets/default/en_index.htm" />
+        <option value="$PROJECT_DIR$/templets/default/en_head2.htm" />
+        <option value="$PROJECT_DIR$/templets/default/head.htm" />
+        <option value="$PROJECT_DIR$/templets/default/en_head.htm" />
+        <option value="$PROJECT_DIR$/templets/default/list_shop.htm" />
+        <option value="$PROJECT_DIR$/templets/default/images/layout.css" />
+        <option value="$PROJECT_DIR$/templets/default/en_list_shop.htm" />
+        <option value="$PROJECT_DIR$/templets/default/article_shop.htm" />
+        <option value="$PROJECT_DIR$/templets/default/en_article_shop.htm" />
+        <option value="$PROJECT_DIR$/templets/default/singlepage.htm" />
       </list>
     </option>
   </component>
@@ -603,7 +472,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -635,65 +504,280 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templets/default/head2.htm">
+    <entry file="file://$PROJECT_DIR$/templets/default/en_index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1334">
+        <state line="38" column="19" selection-start="1322" selection-end="1322" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4853">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templets/default/index_infos.htm">
+    <entry file="file://$PROJECT_DIR$/templets/default/list_shop.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="748" selection-end="748" vertical-scroll-proportion="7.1875" vertical-offset="552" max-vertical-offset="2806">
+        <state line="32" column="30" selection-start="1384" selection-end="1394" vertical-scroll-proportion="0.0" vertical-offset="736" max-vertical-offset="1104">
+          <folding>
+            <element signature="n#style#0;n#DIV#0;n#DIV#0;n#DIV#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/en_list_shop.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="27" selection-start="3453" selection-end="3453" vertical-scroll-proportion="0.0" vertical-offset="2231" max-vertical-offset="2484">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templets/default/images/layout.css">
+    <entry file="file://$PROJECT_DIR$/templets/default/en_list_article.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="866" column="27" selection-start="33140" selection-end="33145" vertical-scroll-proportion="-12.68" vertical-offset="19601" max-vertical-offset="25668">
+        <state line="16" column="24" selection-start="972" selection-end="985" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="1311">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templets/default/style/layout.css">
+    <entry file="file://$PROJECT_DIR$/templets/default/en_index_shop.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17066">
+        <state line="9" column="20" selection-start="626" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="3289">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templets/default/footer.htm">
+    <entry file="file://$PROJECT_DIR$/templets/default/en_index_article.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="292" selection-end="292" vertical-scroll-proportion="-8.625" vertical-offset="0" max-vertical-offset="575">
+        <state line="131" column="27" selection-start="5203" selection-end="5203" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="3243">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templets/default/head.htm">
+    <entry file="file://$PROJECT_DIR$/templets/default/en_head.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="63" selection-start="505" selection-end="505" vertical-scroll-proportion="-6.46875" vertical-offset="0" max-vertical-offset="874">
+        <state line="27" column="37" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="943">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templets/default/index_article.htm">
+    <entry file="file://$PROJECT_DIR$/templets/default/list_article.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="22" selection-start="873" selection-end="873" vertical-scroll-proportion="-6.46875" vertical-offset="207" max-vertical-offset="3243">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="421" max-vertical-offset="1311">
+          <folding>
+            <element signature="tag#HEAD#0;tag#HTML#0" expanded="false" />
+            <element signature="tag#DIV#1;tag#BODY#0;tag#HTML#0" expanded="false" />
+            <element signature="tag#DIV#0;tag#DIV#1;tag#BODY#0;tag#HTML#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/list_default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="27" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="2139">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templets/default/index_default.htm">
+    <entry file="file://$PROJECT_DIR$/templets/default/en_head2.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3381">
+        <state line="27" column="24" selection-start="1719" selection-end="1719" vertical-scroll-proportion="0.0" vertical-offset="621" max-vertical-offset="1334">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templets/default/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="57" selection-start="3500" selection-end="3512" vertical-scroll-proportion="0.84046245" vertical-offset="2125" max-vertical-offset="4853">
+        <state line="124" column="57" selection-start="3500" selection-end="3512" vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="4853" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/footer.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="3" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="575" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/style/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17066" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/images/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="866" column="27" selection-start="33140" selection-end="33145" vertical-scroll-proportion="0.0" vertical-offset="19601" max-vertical-offset="25668">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/head.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="63" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="874" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/index_article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="22" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="3243" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/index_default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3381" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/index_infos.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="8" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0" vertical-offset="322" max-vertical-offset="2806" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/head2.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/index_infos.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="8" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0" vertical-offset="322" max-vertical-offset="2806" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/style/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17066" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/footer.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="3" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="575" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/index_article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="22" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="3243" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/index_default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3381" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="57" selection-start="3500" selection-end="3512" vertical-scroll-proportion="-22.71875" vertical-offset="2125" max-vertical-offset="4853" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/en_article_article1.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5451" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/head.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="25" selection-start="1165" selection-end="1165" vertical-scroll-proportion="-19.1875" vertical-offset="76" max-vertical-offset="966" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/en_head2.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="24" selection-start="1719" selection-end="1719" vertical-scroll-proportion="0.0" vertical-offset="621" max-vertical-offset="1334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/en_index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="19" selection-start="1322" selection-end="1322" vertical-scroll-proportion="96.53125" vertical-offset="3963" max-vertical-offset="4853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/list_default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="27" selection-start="972" selection-end="972" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="2139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/list_img.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2599">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/list_article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="1237" selection-end="1256" vertical-scroll-proportion="-5.0" vertical-offset="1" max-vertical-offset="966">
+          <folding>
+            <element signature="tag#HEAD#0;tag#HTML#0" expanded="false" />
+            <element signature="tag#DIV#1;tag#BODY#0;tag#HTML#0" expanded="false" />
+            <element signature="tag#DIV#0;tag#DIV#1;tag#BODY#0;tag#HTML#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/en_head.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="29" selection-start="1064" selection-end="1066" vertical-scroll-proportion="-17.03125" vertical-offset="53" max-vertical-offset="943">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/en_list_shop.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="2404" selection-end="2404" vertical-scroll-proportion="0.7157303" vertical-offset="605" max-vertical-offset="1518">
+          <folding>
+            <element signature="n#style#0;n#DIV#0;n#DIV#0;n#DIV#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/en_list_article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="45" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.7752809" vertical-offset="0" max-vertical-offset="1311">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/en_index_shop.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="23" selection-start="3288" selection-end="3288" vertical-scroll-proportion="1.1835804" vertical-offset="618" max-vertical-offset="3289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/en_index_article.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="24" selection-start="716" selection-end="716" vertical-scroll-proportion="-0.71875" vertical-offset="253" max-vertical-offset="3243">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/images/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1142" column="1" selection-start="40635" selection-end="40635" vertical-scroll-proportion="0.0" vertical-offset="24184" max-vertical-offset="26818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/list_shop.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="996" selection-end="1043" vertical-scroll-proportion="-15.8125" vertical-offset="0" max-vertical-offset="1495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/article_shop.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="58" selection-start="4000" selection-end="4000" vertical-scroll-proportion="-63.25" vertical-offset="0" max-vertical-offset="2829">
+          <folding>
+            <element signature="n#style#0;n#DIV#0;n#DIV#0;n#DIV#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/en_article_shop.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="58" selection-start="4553" selection-end="4553" vertical-scroll-proportion="-41.78125" vertical-offset="1032" max-vertical-offset="2806">
+          <folding>
+            <element signature="n#style#0;n#DIV#0;n#DIV#0;n#DIV#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/default/singlepage.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="58" selection-start="1403" selection-end="1411" vertical-scroll-proportion="0.46516854" vertical-offset="207" max-vertical-offset="1104">
           <folding />
         </state>
       </provider>

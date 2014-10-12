@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="{dede:global.cfg_templets_skin/}/images/layout.css" rel="stylesheet" media="screen" type="text/css" />
+</head>
+</head>
+<body class="downlist">
+{dede:include filename="en_head.htm"/}
+<!-- /header -->
+<DIV class=bottom_shadow></DIV>
+<DIV class=banner>
+    <DIV class=loading>
+        <DIV
+                style="TEXT-ALIGN: center; WIDTH: 100%; BACKGROUND: url({dede:global.cfg_templets_skin/}/images/20140504083916_87607.jpg) no-repeat center top; HEIGHT: 230px">
+        </DIV>
+    </DIV>
+</DIV>
+
+<DIV class=maincontent>
+    <DIV class=content>
+        <div class="listbox">
+            <ul class="e2">
+                {dede:list pagesize='12' typeid='17'}
+                <li>
+                    <div>
+                        [field:array runphp='yes']@me = (empty(@me['litpic']) ? "" : "<a href='{@me['arcurl']}' class='preview'><img src='{@me['litpic']}'/></a>"); [/field:array]
+                        <div class="brif">
+                            <p><a href="[field:arcurl/]" class="title">[field:title/]</a></p>
+
+                            <!--small>日期：</small>[field:pubdate function="GetDateTimeMK(@me)"/]-->
+                            <p>    <small>价格：</small>[field:trueprice/]</p>
+                            <p>    <small>价格：</small>[field:trueprice/]</p>
+                            <!--small>品牌：</small>[field:brand/]>
+                            <small>人气：</small>[field:click/]-->
+                        </div>
+                        <!--class="intro">
+                           [field:description/]...-->
+                    </div>
+                </li>
+                {/dede:list}
+            </ul>
+        </div><!-- /listbox -->
+        <br>&nbsp;</br>
+        <div class="dede_pages">
+            <ul class="pagelist">
+                {dede:pagelist listitem="info,index,end,pre,next,pageno" listsize="5"/}
+            </ul>
+        </div><!-- /pages -->
+    </DIV>
+</DIV>
+
+{dede:include filename="en_footer.htm"/}
+<!-- /footer -->
+
+</body>
+</html>

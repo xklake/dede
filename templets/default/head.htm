@@ -11,7 +11,11 @@ src="{dede:global.cfg_templets_skin/}/images/top_tel.png" height=18>
 <A id="inside"
 href="javascript:void(0);"><IMG align=absMiddle 
 src="{dede:global.cfg_templets_skin/}/images/weixin.png" 
-height=18></A></DIV></DIV>
+height=18></A>
+<span><a href="{dede:type typeid=17}[field:typelink/]{/dede:type}">中文</span></span>
+<span><a href="{dede:type typeid=8}[field:typelink/]{/dede:type}">Enlish</span></span>
+
+</DIV></DIV>
 <DIV class=logo_menu>
 <DIV class=w1000>
 <DIV class=logo><A href="/"><IMG alt=引擎科技网站建设 
@@ -24,7 +28,7 @@ src="{dede:global.cfg_templets_skin/}/images/logo.png"></A></DIV>
   href="{dede:global.cfg_cmsurl/}/">网站首页</A> </LI>
   
   
-{dede:channel type='top' row='10' currentstyle="<li class='hover'><a href='~typelink~' ~rel~><span>~typename~</span></a></li>"}
+{dede:channel typeid='17' row='10' currentstyle="<li class='hover'><a href='~typelink~' ~rel~><span>~typename~</span></a></li>"}
   <LI class=menu201><A title=[field:typename/] href="[field:typeurl/]">[field:typename/]</A> 
   </LI>
 {/dede:channel}  
